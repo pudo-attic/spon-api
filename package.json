@@ -1,7 +1,9 @@
 {
   "name": "spon-api",
   "version": "0.0.1",
+  "main": "app.coffee",
   "dependencies": {
+    "coffee-script": "*",
     "cheerio": ">= 0.10.7",
     "express": "3.x",
     "underscore": ">= 1.4.4"
