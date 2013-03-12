@@ -9,7 +9,7 @@ app.use express.errorHandler()
 app.use express.bodyParser()
 app.use express.static __dirname + '/static'
 
-app.get '/', (req, res) ->
+app.get '/status', (req, res) ->
   res.send 
     hello: 'world!'
 
