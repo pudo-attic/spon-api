@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentlist displaycontext="testchannel" id="/spon/article/1">
+<metadata>
+<displaychannel>
+<id>405</id>
+<name>TESTCHANNEL</name>
+<path>testchannel</path>
+<attributes>
+<attribute>rssfeed</attribute>
+</attributes>
+</displaychannel>
+<displayrubric>
+<id>3074</id>
+<name>Testbereich smallScreen</name>
+<path>testchannel/testbereich</path>
+</displayrubric>
+<topic>
+<id>20625</id>
+<name>Erdöl</name>
+<path>oel</path>
+<attributes>
+<attribute>dossierrssfeed</attribute>
+</attributes>
+<category>S</category>
+<displaychannel>
+<id>21</id>
+<name>Wirtschaft</name>
+<path>wirtschaft</path>
+</displaychannel>
+</topic>
+<language>de</language>
+<adviselayout>spSmallScreen</adviselayout>
+<allocationunit>test/artikel</allocationunit>
+</metadata>
+<article id="/spon/article/1">
+<metadata>
+<site>spon</site>
+<workingtitle>Karstens Testartikel</workingtitle>
+<status>expired</status>
+<launchdate>2012-04-05T10:58:00.000+02:00</launchdate>
+<modificationdate>2012-06-14T19:41:53.000+02:00</modificationdate>
+<modificationuser>fiedler</modificationuser>
+<creationuser>fiedler</creationuser>
+<articleid>1</articleid>
+<context>testchannel/testbereich</context>
+<language>de</language>
+<weburl>http://www.spiegel.de/testchannel/testbereich/a-1.html</weburl>
+<vgwort>68637b7dc24b4706b619e1ad71319412</vgwort>
+<allocationunit>test/artikel</allocationunit>
+<adviselayout>spSmallScreen</adviselayout>
+<popupparameters>width=999</popupparameters>
+<metadataimage oid="image_1589"/>
+<channel>
+<id>405</id>
+<name>TESTCHANNEL</name>
+<path>testchannel</path>
+</channel>
+<rubric>
+<id>3074</id>
+<name>Testbereich smallScreen</name>
+<path>testchannel/testbereich</path>
+</rubric>
+<displaychannel>
+<id>405</id>
+<name>TESTCHANNEL</name>
+<path>testchannel</path>
+<attributes>
+<attribute>rssfeed</attribute>
+</attributes>
+</displaychannel>
+<displayrubric>
+<id>3074</id>
+<name>Testbereich smallScreen</name>
+<path>testchannel/testbereich</path>
+</displayrubric>
+<topics>
+<topic>
+<id>20625</id>
+<name>Erdöl</name>
+<path>oel</path>
+<attributes>
+<attribute>dossierrssfeed</attribute>
+</attributes>
+<category>S</category>
+<displaychannel>
+<id>21</id>
+<name>Wirtschaft</name>
+<path>wirtschaft</path>
+</displaychannel>
+</topic>
+</topics>
+<authors>
+<author>
+<id>32</id>
+<name>Birgit Ackermann</name>
+</author>
+<author>
+<id>481</id>
+<name>Erich Albrecht</name>
+</author>
+</authors>
+<attributes>
+<attribute>multiareacontent</attribute>
+<attribute>ohnewerbung</attribute>
+</attributes>
+<containedassets>
+<cetag cid="pdf" oid="pdf_3619"/>
+<cetag cid="html" oid="html_50768"/>
+<cetag cid="flash" oid="flash_24816"/>
+<cetag cid="ilink" oid="ilink_673281"/>
+<cetag cid="ilink" oid="ilink_524640"/>
+<cetag cid="flash" oid="flash_22494"/>
+<cetag cid="image" oid="image_1589"/>
+<cetag cid="soundtool" oid="soundtool_0"/>
+<cetag cid="pic" oid="pic_1473819"/>
+<cetag cid="xlink" oid="xlink_48560"/>
+<cetag cid="car" oid="car_2071"/>
+<cetag cid="image" oid="image_70188"/>
+<cetag cid="flashvideo" oid="flashvideo_1056231"/>
+<cetag cid="flash" oid="flash_21285"/>
+<cetag cid="image" oid="image_10468"/>
+<cetag cid="image" oid="image_10477"/>
+<cetag cid="image" oid="image_10457"/>
+<cetag cid="gallery" oid="gallery_46172"/>
+<cetag cid="pic" oid="pic_678369"/>
+<cetag cid="pic" oid="pic_678373"/>
+<cetag cid="pic" oid="pic_371434"/>
+<cetag cid="pic" oid="pic_678339"/>
+<cetag cid="pic" oid="pic_678350"/>
+<cetag cid="pic" oid="pic_678376"/>
+<cetag cid="gallery" oid="gallery_15454"/>
+<cetag cid="multibox" oid="multibox_39954"/>
+<cetag cid="multibox" oid="multibox_28713"/>
+<cetag cid="multibox" oid="multibox_30567"/>
+<cetag cid="multibox" oid="multibox_41776"/>
+<cetag cid="image" oid="image_138354"/>
+<cetag cid="flashvideo" oid="flashvideo_500077"/>
+<cetag cid="table" oid="table_5682"/>
+<cetag cid="ilinkbox" oid="ilinkbox_1"/>
+<cetag cid="xlinkbox" oid="xlinkbox_1"/>
+<cetag cid="flashvideo" oid="flashvideo_99000243"/>
+<cetag cid="forum" oid="forum_8822"/>
+<cetag cid="gallery" oid="gallery_38200"/>
+</containedassets>
+<pages>
+<page num="1">Karstens Testartikel No. 1</page>
+</pages>
+<szwprofile>
+<id>1178</id>
+</szwprofile>
+<ivwcode>
+<id/>
+</ivwcode>
+<edition type=""/>
+</metadata>
+<topic>Neu!</topic>
+<authorline>Von <a href="mailto:Birgit.Ackermann@jetzt.de">Birgit Ackermann</a> und <a href="mailto:Matthias@journo.demon.co.uk">Erich Albrecht</a>
+</authorline>
+<headlines>
+<headline type="index">Arbeits-Headline</headline>
+<headline type="article">Karstens Testartikel No. 1</headline>
+<headline type="mobil">Karstens Testartikel No. 1</headline>
+</headlines>
+<teasers>
+<teaser type="index">Dies ist ein enorm guter teaser! Dies ist ein enorm guter teaser!Dies ist ein enorm guter teaser!</teaser>
+<teaser type="article">Dies ist ein enorm guter teaser! Dies ist ein enorm guter teaser!Dies ist ein enorm guter teaser!</teaser>
+</teasers>
+<body>
+<p>
+ 
+<cetag cid="pdf" oid="pdf_3619">
+<attribute name="content"/>
+</cetag> 
+<cetag cid="pdf" oid="pdf_3619">
+<attribute name="content">Text</attribute>
+</cetag> </p>
+
+<p>
+<cetag cid="html" oid="html_50768"/> Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+<cetag cid="flash" oid="flash_24816">
+<attribute name="inline">nein</attribute>
+</cetag>Text Text Text <cetag cid="ilink" oid="ilink_673281">
+<attribute name="content"/>
+<attribute name="type"/>
+<attribute name="content"/>
+</cetag> <cetag cid="ilink" oid="ilink_524640">
+<attribute name="content">Link</attribute>
+<attribute name="type"/>
+</cetag>Text Text Text Text Text Text Text Text Text 
+<cetag cid="flash" oid="flash_22494">
+<attribute name="inline">nein</attribute>
+</cetag>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+<cetag cid="image" oid="image_1589">
+<attribute name="align">left</attribute>
+<attribute name="linktofullsize">true</attribute>
+<attribute name="imagetype">standard</attribute>
+<attribute name="content">ARCHIV: Ein Porsche-Mitarbeiter kontrolliert im Porsche-Werk in Leipzig die Karosse eines Porsche Panamera (Foto vom 02.06.09). Neben dem Emir von Katar interessieren sich offenbar drei weitere Bieter fuer einen Einstieg bei Porsche sowie die Aktienoptionen an Volkswagen, die Porsche haelt. Nach Informationen des Nachrichtenmagazins "Focus" sind dies ein russischer und ein chinesischer Staatsfonds sowie ein Hedgefonds. Derzeit verhandele der Stuttgarter Sportwagenhersteller jedoch exklusiv mit dem Emirat Katar, berichtete das Magazin am Wochenende (04./05.07.09). (zu ddp-Text) Foto: Sebastian Willnow/ddp</attribute>
+<attribute name="viewtype"/>
+</cetag>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
+
+<p>
+<cetag cid="soundtool" oid="soundtool_0">
+<attribute name="align">center</attribute>
+<attribute name="contentainerid">52699</attribute>
+</cetag>oben MOTIV-BIGA, unten PIC-BIGA</p>
+
+<p>djg ljdfgjhlkjkl kjlf jlkfj lkjlh jlfgjhl lfj lfj jgjh ljlj lfh </p>
+
+<p>jlfj lfjhl kfjlfghlkfgjlfj lkjfjh </p>
+
+<p>
+<cetag cid="pic" oid="pic_1473819">
+<attribute name="align">left</attribute>
+<attribute name="content">Nutzung als Aufmacher abgesprochen mit: Sandra Scholz Tel. +49 [89] 9507-1121 Sandra.Scholz@ProSieben.de -bisher galt NIcht als Aufmacher nutzen... Nutzung abgesprochen mit: Bettina.Nissum@prosieben.de Geswitcht: Hitler bernimmt Strombergs Bro: Fhrungswechsel im Stromberg-Bro: Hitler (Michael Kessler) hat das Regime bernommen und liefert sich Grabenkmpfe an der Schreibtischfront mit Goebbels und Rommel. Mit neuen Parodien startet "Switch reloaded" am Dienstag, 6. November 2007, um 22.15 Uhr in die 2. Staffel / Free-TV-Premiere "Erkan &amp;amp; Stefan in Der Tod kommt krass" lutet Comedy-Marathon auf ProSieben um 20.15 Uhr ein. Motiv: Michael Kessler als Hitler in der Sketch-Comedy "Switch reloaded". Foto: © ProSieben/ Kai Schulz. Dieses Bild darf bis 9. November 2007 honorarfrei fr redaktionelle Zwecke und nur im Rahmen der Programmankndigung verwendet werden. Sptere Verffentlichungen sind nur nach Rcksprache und ausdrcklicher Genehmigung der ProSieben Television GmbH mglich. Verwendung nur mit Copyrightvermerk. Die Fotos drfen nicht archiviert werden und nicht an Dritte weitergeleitet werden. Bei Fragen: 089/9507-1158 +++ +++</attribute>
+<attribute name="type"/>
+</cetag>TText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text TextText Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Textext Text Text Text Text </p>
+
+<p>oben MOTIV-BIGA, unten PIC-BIGA</p>
+
+<p>djg ljdfgjhlkjkl kjlf jlkfj lkjlh jlfgjhl lfj lfj jgjh ljlj lfh </p>
+
+<p>jlfj lfjhl kfjlfghlkfgjlfj lkjfjh </p>
+
+<p>Text Text Text Text Text lklh ljglhkfghlkfjhl kjlfjhlk lfhl kjlkghlkgjlkfjhlk jlklkgjh lkfgkhl lfkghl klfgk lklk lkfh lfkflgj ldfg l <cetag cid="xlink" oid="xlink_48560">
+<attribute name="content">Dieser Link ist expired!</attribute>
+</cetag>
+</p>
+
+</body>
+<bodyleft> 
+<cetag cid="car" oid="car_2071">
+<attribute name="align">left</attribute>
+</cetag> 
+<cetag cid="flash" oid="flash_24816">
+<attribute name="inline">nein</attribute>
+</cetag> 
+<cetag cid="flashvideo" oid="flashvideo_1056231">
+<attribute name="align"/>
+</cetag> 
+<cetag cid="flash" oid="flash_21285">
+<attribute name="inline">ja</attribute>
+</cetag> 
+<cetag cid="flash" oid="flash_21285">
+<attribute name="inline">ja</attribute>
+</cetag> 
+<cetag cid="gallery" oid="gallery_46172"/> 
+<cetag cid="gallery" oid="gallery_15454"/> 
+<cetag cid="soundtool" oid="soundtool_0">
+<attribute name="contentainerid">44747</attribute>
+</cetag> 
+<cetag cid="multibox" oid="multibox_39954"/> 
+<cetag cid="pdf" oid="pdf_3619">
+<attribute name="content"/>
+</cetag> 
+<cetag cid="multibox" oid="multibox_28713"/> 
+<cetag cid="multibox" oid="multibox_30567"/> 
+<cetag cid="multibox" oid="multibox_41776"/> 
+<cetag cid="flashvideo" oid="flashvideo_500077">
+<attribute name="align"/>
+</cetag> 
+<cetag cid="table" oid="table_5682">
+<attribute name="align">left</attribute>
+</cetag> 
+<cetag cid="soundtool" oid="soundtool_0">
+<attribute name="contentainerid">44747</attribute>
+</cetag>
+</bodyleft>
+<relatedassets>
+<cetag cid="ilinkbox" oid="ilinkbox_1"/>
+<cetag cid="xlinkbox" oid="xlinkbox_1"/>
+</relatedassets>
+</article>
+<assets>
+<asset cid="multibox" oid="multibox_39954">
+<attribute name="modificationdate">2009-11-27T16:03:59.000+01:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="headline">Paintball</attribute>
+<attribute name="channel">Politik</attribute>
+<attribute name="style">accordion</attribute>
+<attribute name="headline.1">Entstehung</attribute>
+<attribute name="body.1">
+<body>
+<cetag cid="xlink" oid="xlink_85345">
+<attribute name="content">
+<b>Paintball</b>
+</attribute>
+</cetag> entstand in den achtziger Jahren in den USA. Das angeblich erste Spiel hatte zwölf Teilnehmer und fand in New Hampshire statt. Die Mitspieler sollen Farbgewehre zweckentfremdet haben, die ursprünglich von Waldarbeitern genutzt wurden, um bestimmte Bäume zum Fällen zu markieren.</body>
+</attribute>
+<attribute name="headline.2">Regeln/Bedingungen für Paintball in Deutschland</attribute>
+<attribute name="body.2">
+<body>Während in den meisten europäischen Ländern und den USA <cetag cid="xlink" oid="xlink_85345">
+<attribute name="content">
+<b>Paintball</b>
+</attribute>
+</cetag> als richtiger Sport gilt und gesetzlich kaum oder gar nicht eingeschränkt wird, herrschen in Deutschland strenge Regeln: Der Erwerb und Besitz von sämtlichen <cetag cid="xlink" oid="xlink_85702">
+<attribute name="content">
+<b>Luftdruck-, Federdruck- und CO2-Waffen</b>
+</attribute>
+</cetag> (dazu gehören auch Softair- und Gotcha-Waffen, deren Bewegungsenergie der Geschosse über 0,5 Joule liegt) mit einer höheren Geschossbewegungsenergie als 7,5 Joule ist erst ab 18 Jahren gestattet.<br/>
+Zum Führen dieser Waffen in der Öffentlichkeit ist ein Waffenschein nötig.
+Das Spiel ist nur innerhalb eines befriedeten Besitztums (also ein durch einen Zaun o.ä. klar abgegrenztes Privatgebiet) erlaubt, wenn gleichzeitig sichergestellt ist, dass die Geschosse das Grundstück nicht verlassen und Unbeteiligte verletzen können. Paintball-Spiele auf öffentlichem Gelände verstoßen gegen das Gesetz und werden geahndet. Für Verletzungen trägt jeder Spieler die Verantwortung  ein Gegenspieler kann bei Einhaltung der Spielregeln rechtlich nicht für eine Verletzung belangt werden.</body>
+</attribute>
+<attribute name="headline.3">Paintball-Sport</attribute>
+<attribute name="body.3">
+<body>In Deutschland gilt Paintball bisher nicht offiziell als Sport, es werden jedoch <cetag cid="xlink" oid="xlink_85360">
+<attribute name="content">
+<b>Turniere</b>
+</attribute>
+</cetag> ausgetragen - unter anderem von der Deutschen Paintball-Liga (DPL). Sie bemüht sich seit Jahren um die Anerkennung als regulärer <cetag cid="xlink" oid="xlink_85359">
+<attribute name="content">
+<b>Sportverband</b>
+</attribute>
+</cetag> und die Bewerbung von Paintball als ungefährlichem Sport.<br/>
+Um das Image des Paintballs zu verbessern und dem Vorwurf des simulierten Tötens und "Kriegspielens" zu begegnen, vermeiden seriöse Paintball-Player kriegerische Anspielungen in Kleidung und Sprache. So wird die Waffe als "Markierer" bezeichnet, und rote Farbbälle sind wegen ihrer optischen Ähnlichkeit zu Blut verpönt. In den USA gibt es keine Altersbegrenzung für Paintball. Allerdings ist in manchen Städten das öffentliche Tragen der Markierer verboten, um eine Verwechslung mit echten Waffen zu vermeiden. In Österreich dürfen Jugendliche schon ab 14 Jahren im Beisein eines Erziehungsberechtigten Paintball spielen. Ab 16 Jahren ist das Spielen auf den meisten Anlagen mit Vorlage einer schriftlichen Einverständniserklärung eines Erziehungsberechtigten gestattet.</body>
+</attribute>
+<attribute name="headline.4">Ausrüstung</attribute>
+<attribute name="body.4">
+<body>Die <cetag cid="xlink" oid="xlink_85345">
+<attribute name="content">
+<b>Deutsche Paintball-Liga</b>
+</attribute>
+</cetag> verwendet Bälle mit einer <cetag cid="xlink" oid="xlink_85363">
+<attribute name="content">
+<b>Gelatinehülle</b>
+</attribute>
+</cetag>, die mit Kartoffelstärke, Pflanzenöl und <cetag cid="xlink" oid="xlink_85362">
+<attribute name="content">
+<b>Lebensmittelfarbe</b>
+</attribute>
+</cetag> gefüllt ist. Diese Bälle bauen sich innerhalb von zwei Wochen biologisch rückstandsfrei ab.<br/>
+Paintball wird mit Schutzkleidung gespielt. Große Schutzmasken sind ebenfalls wichtig, damit niemand Farbe in Mund oder Augen bekommt.<br/>
+In Druckflaschen wird das Treibmittel <cetag cid="xlink" oid="xlink_85361">
+<attribute name="content">
+<b>CO2 (Kohlenstoffdioxyd)</b>
+</attribute>
+</cetag> oder HP (Druckluft) gelagert. Durch den Druck werden die Bälle aus dem Markierer geschossen.</body>
+</attribute>
+<attribute name="headline.5">Verbreitung</attribute>
+<attribute name="body.5">
+<body>Nach Angaben der Deutschen Paintball-Liga gibt es in Deutschland Tausende Anhänger und mehr als 200 Spielfelder.<br/>
+Heute finden in mehr als 60 Ländern regelmäßig <cetag cid="xlink" oid="xlink_85345">
+<attribute name="content">
+<b>Paintball</b>
+</attribute>
+</cetag>-Turniere statt. Das bisher größte <cetag cid="xlink" oid="xlink_85424">
+<attribute name="content">
+<b>Indoor-Turnier</b>
+</attribute>
+</cetag> wurde 1998 in Toronto organisiert. In den USA sponsern Unternehmen wie Pepsi und Budweiser die Teams.</body>
+</attribute>
+<attribute name="count">5</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85424">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/lexikon/54390823.html</attribute>
+<attribute name="name">Lexikon: Indoor</attribute>
+</asset>
+<asset cid="forum" oid="forum_8822">
+<attribute name="server">http://forum.spiegel.de</attribute>
+<attribute name="threadid">12889</attribute>
+<attribute name="name">Was ist wichtiger - der Ausbau des Straßen- oder des Schienennetzes?</attribute>
+<attribute name="language">de</attribute>
+<attribute name="url">http://forum.spiegel.de/showthread.php?t=12889</attribute>
+<attribute name="datum">2010-03-05T14:32:00.000+01:00</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_414313">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">asset</attribute>
+<attribute name="topic">Dumm gelaufen</attribute>
+<attribute name="headline">Plattenspieler dreht durch</attribute>
+<attribute name="cearticleid">414313</attribute>
+<attribute name="asset">gallery_13625</attribute>
+<attribute name="asset_subtype">0</attribute>
+</asset>
+<asset cid="pic" oid="pic_1387154">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1387154,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_294812">
+<attribute name="seoline">osterfest-papst-ueberlaesst-fusswaschung-den-kardinaelen-ratzinger-und-sodano</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Osterfest</attribute>
+<attribute name="headline">Papst überlässt Fußwaschung den Kardinälen Ratzinger und Sodano</attribute>
+<attribute name="articleid">294812</attribute>
+<attribute name="context">panorama</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2004-04-08T23:05:57.000+02:00</attribute>
+<attribute name="target">/spon/article/294812</attribute>
+</asset>
+<asset cid="table" oid="table_9337">
+<attribute name="firstRowIsHead">0</attribute>
+<attribute name="firstColumnIsHead">1</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="footer">Marktanteil an Smartphone-Betriebsystemen im März 2011 in Deutschland (%). Quelle: InMob Mobile Insights, Basis der Auswertung sind 518,7 Millionen inMobi-Werbeeinblendungen auf Mobilgeräten in Deutschland im März 2011 und 470,3 Millionen Werbeeinblendungen im Januar</attribute>
+<attribute name="assetid">9337</attribute>
+<attribute name="width">302</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">Android (Google)	</td>
+<td align="center">	49,7	</td>
+</tr>
+<tr>
+<td align="left">iOS (Apple)	</td>
+<td align="center">	30,1	</td>
+</tr>
+<tr>
+<td align="left">Symbian 	</td>
+<td align="center">	6,9	</td>
+</tr>
+<tr>
+<td align="left">RIM 	</td>
+<td align="center">	2,1	</td>
+</tr>
+<tr>
+<td align="left">Nokia	</td>
+<td align="center">	1,8	</td>
+</tr>
+<tr>
+<td align="left">andere	</td>
+<td align="center">	9,4	</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_621332">
+<attribute name="type">article</attribute>
+<attribute name="topic">100-Tage-Bilanz</attribute>
+<attribute name="headline">Wie gut sind Sie als Chef?</attribute>
+<attribute name="articleid">621332</attribute>
+<attribute name="context">strategien/artikel</attribute>
+<attribute name="site">hbm</attribute>
+<attribute name="date">2009-04-28T08:41:29.000+02:00</attribute>
+<attribute name="target">/hbm/article/621332</attribute>
+</asset>
+<asset cid="image" oid="image_10457">
+<attribute name="credit">Nicole Manthey</attribute>
+<attribute name="token">gpsb</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">750x499xjpg</attribute>
+<attribute name="imagetype_galleryV9">850x565xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">420x279xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x250xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x222xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">480x319xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">750x499xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x42xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x125xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x144xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">960x639xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">286x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="gallery" oid="gallery_15454">
+<attribute name="typ">2</attribute>
+<attribute name="site">SPIEGEL ONLINE</attribute>
+<attribute name="topic">werwer</attribute>
+<attribute name="headline">werwer</attribute>
+<attribute name="headline.seo">werwer: werwer</attribute>
+<attribute name="teaser">werwer</attribute>
+<attribute name="modificationdate">2009-07-20T15:04:33.000+02:00</attribute>
+<attribute name="date">2008-09-09T16:48:00.000+02:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="bigthumb">0</attribute>
+<attribute name="seoline">werwer-werwer</attribute>
+<attribute name="channel.name">Auto</attribute>
+<attribute name="language">de</attribute>
+<attribute name="channel.id">139</attribute>
+<attribute name="channel.path">auto</attribute>
+<attribute name="channel.feedbackmail">spon_auto@spiegel.de</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1124</attribute>
+<attribute name="channel.szwprofile_0">1120</attribute>
+<attribute name="channel.allocationunit">auto/artikel1</attribute>
+<attribute name="fullsizeoid">gallery_15454_full</attribute>
+<attribute name="picturecount">6</attribute>
+<cetag cid="pic" oid="pic_678339"/>
+<cetag cid="pic" oid="pic_678350"/>
+<cetag cid="pic" oid="pic_678369"/>
+<cetag cid="pic" oid="pic_678373"/>
+<cetag cid="pic" oid="pic_678376"/>
+<cetag cid="pic" oid="pic_371434"/>
+</asset>
+<asset cid="pic" oid="pic_1470371">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1470371,00.jpg</attribute>
+</asset>
+<asset cid="flashvideo" oid="flashvideo_500077">
+<attribute name="status">live</attribute>
+<attribute name="videoid">500077</attribute>
+<attribute name="filename">TEST KARSTEN * NICHT VERWENDEN</attribute>
+<attribute name="credit">Test WMV Video Download</attribute>
+<attribute name="thema">Test WMV Video Download</attribute>
+<attribute name="headline">Test WMV Video Download</attribute>
+<attribute name="teaser">Test WMV Video Download</attribute>
+<attribute name="datum">2009-03-25T15:28:00.000+01:00</attribute>
+<attribute name="duration">00:16</attribute>
+<attribute name="modificationdate">2010-10-20T10:58:46.000+02:00</attribute>
+<attribute name="allowads">true</attribute>
+<attribute name="embeddable">false</attribute>
+<attribute name="categoryid">10</attribute>
+<attribute name="cdnhost">http://video.spiegel.de/flash/</attribute>
+<attribute name="tags">Angela Merkel,Fußball,Internet</attribute>
+<cetag cid="image" oid="image_138354"/>
+</asset>
+<asset cid="pic" oid="pic_2176052">
+<attribute name="width">302</attribute>
+<attribute name="height">167</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,2176052,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_270087">
+<attribute name="seoline">neue-irak-resolution-bush-bedankt-sich-bei-uno</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Neue Irak-Resolution</attribute>
+<attribute name="headline">Bush bedankt sich bei Uno</attribute>
+<attribute name="articleid">270087</attribute>
+<attribute name="context">politik/ausland</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2003-10-16T16:53:38.000+02:00</attribute>
+<attribute name="target">/spon/article/270087</attribute>
+</asset>
+<asset cid="pic" oid="pic_2176053">
+<attribute name="width">502</attribute>
+<attribute name="height">254</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,2176053,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_621910">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Ihr 100-Tage-Check</attribute>
+<attribute name="headline">Wie gut sind Sie als Chef?</attribute>
+<attribute name="cearticleid">621910</attribute>
+<attribute name="articleid">621332</attribute>
+<attribute name="context">strategien/artikel</attribute>
+<attribute name="site">hbm</attribute>
+<attribute name="date">2009-04-28T08:41:29.000+02:00</attribute>
+<attribute name="target">/hbm/article/621332</attribute>
+</asset>
+<asset cid="pic" oid="pic_1470374">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1470374,00.jpg</attribute>
+</asset>
+<asset cid="pic" oid="pic_678350">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">DPA</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="fullsizeoid">pic_678349</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,678350,00.jpg</attribute>
+<attribute name="fullsizebinaryurl">http://www.spiegel.de/img/0,1020,678349,00.jpg</attribute>
+</asset>
+<asset cid="car" oid="car_2071">
+<attribute name="beschleunigung_0auf100">9.1</attribute>
+<attribute name="drehmoment_nm">0</attribute>
+<attribute name="drehmoment_nm_e">400</attribute>
+<attribute name="haftpflichtversicherung">17</attribute>
+<attribute name="hersteller">Testa</attribute>
+<attribute name="hubraum_ccm">0</attribute>
+<attribute name="hoechstgeschwindigkeit_kmh">193</attribute>
+<attribute name="karosserie">Kombi</attribute>
+<attribute name="kofferraumvolumen1">801</attribute>
+<attribute name="kofferraumvolumen2">1700</attribute>
+<attribute name="kraftstoff">Strom</attribute>
+<attribute name="leistung_kw_e">74</attribute>
+<attribute name="leistung_ps_e">100</attribute>
+<attribute name="co2ausstoss">0</attribute>
+<attribute name="motor">Elektromotor</attribute>
+<attribute name="antrieb">Allrad</attribute>
+<attribute name="preis_eur">22222</attribute>
+<attribute name="teilkaskoversicherung">17</attribute>
+<attribute name="typ">Testdrive Blu</attribute>
+<attribute name="verbrauch_ece">0</attribute>
+<attribute name="vollkaskoversicherung">23</attribute>
+<attribute name="weight">1111</attribute>
+<attribute name="dimensions">weiss ich nicht</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_361445">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">url</attribute>
+<attribute name="topic">Fotoportal seen.by</attribute>
+<attribute name="headline">Voll aufs Auge!</attribute>
+<attribute name="cearticleid">361445</attribute>
+<attribute name="url">http://seen.by.spiegel.de/</attribute>
+</asset>
+<asset cid="image" oid="image_281816">
+<attribute name="credit">SPIEGEL TV</attribute>
+<attribute name="token">nkwf</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="imagetype_videopanocontentainer">300x180xjpg</attribute>
+<attribute name="imagetype_thumbflexhp">291x170xjpg</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_42851">
+<attribute name="type">url</attribute>
+<attribute name="topic">Bundeszentrale für politische Bildung</attribute>
+<attribute name="headline"> Mobbing</attribute>
+<attribute name="url">http://www.bpb.de/publikationen/0279DN,0,Nr_16_Mobbing.html</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_42850">
+<attribute name="type">url</attribute>
+<attribute name="topic">Bundeszentrale für politische Bildung</attribute>
+<attribute name="headline"> Zivilcourage lernen: Analysen  Modelle  Arbeitshilfen</attribute>
+<attribute name="url">http://www.bpb.de/publikationen/K74L8K,0,Zivilcourage_lernen:_Analysen__Modelle__Arbeitshilfen.html</attribute>
+</asset>
+<asset cid="image" oid="image_70188">
+<attribute name="credit">REUTERS</attribute>
+<attribute name="token">abcd</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">750x420xjpg</attribute>
+<attribute name="imagetype_galleryV9">850x476xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">420x235xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x250xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_videopanoplayer">520x292xjpg</attribute>
+<attribute name="imagetype_videopanocontentainer">300x180xjpg</attribute>
+<attribute name="imagetype_videothumb">180x135xjpg</attribute>
+<attribute name="imagetype_videothumbplayersmall">80x60xjpg</attribute>
+<attribute name="imagetype_videothumbplayer">112x84xjpg</attribute>
+<attribute name="imagetype_videothumbmultimedia">160x120xjpg</attribute>
+<attribute name="imagetype_videothumbassetcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x222xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_videopanoplayermobileteaserbox">320x180xjpg</attribute>
+<attribute name="imagetype_videopanoplayermobile">462x260xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">480x269xjpg</attribute>
+<attribute name="imagetype_thumbflexhp">291x170xjpg</attribute>
+<attribute name="imagetype_videoposter16">640x360xjpg</attribute>
+<attribute name="imagetype_videothumb16small">158x88xjpg</attribute>
+<attribute name="imagetype_videothumb16">300x168xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">750x420xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x42xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x125xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x144xjpg</attribute>
+<attribute name="imagetype_thumb_fussballapp_biga">172x101xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">960x537xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">339x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_312452">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">url</attribute>
+<attribute name="headline">Formel-1-Liveticker</attribute>
+<attribute name="cearticleid">312452</attribute>
+<attribute name="popupparameters">resizable,menubar=no,scrollbars=yes,width=770,height=650</attribute>
+<attribute name="url">http://www.spiegel.de/staticgen//f1ticker/html/detail.html</attribute>
+</asset>
+<asset cid="flash" oid="flash_22494">
+<attribute name="name">Haiti Erdbeben Vorher / Nachher v2 (15.01.2010)</attribute>
+<attribute name="filesize">54071</attribute>
+<attribute name="width">856</attribute>
+<attribute name="height">715</attribute>
+<attribute name="version">8</attribute>
+<attribute name="text">Port-au-Prince: Die Folgen des Bebens</attribute>
+<attribute name="color">fefefe</attribute>
+<attribute name="channel.id">10</attribute>
+<attribute name="channel.path">panorama</attribute>
+<attribute name="channel.belegungseinheit">panorama</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1301</attribute>
+<attribute name="allocationunit">panorama</attribute>
+<cetag cid="pic" oid="pic_2176052">
+<attribute name="imagetyp">1</attribute>
+</cetag>
+<cetag cid="pic" oid="pic_2176053">
+<attribute name="imagetyp">2</attribute>
+</cetag>
+</asset>
+<asset cid="table" oid="table_7509">
+<attribute name="firstRowIsHead">0</attribute>
+<attribute name="firstColumnIsHead">1</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="footer">Stand: Februar 2012, Quelle: &lt;A HREF="http://marketshare.hitslink.com/search-engine-market-share.aspx?qprid=4&amp;qpcustomd=0" TARGET="BLANK"&gt;Net Applications&lt;/A&gt;&#13;
+</attribute>
+<attribute name="assetid">7509</attribute>
+<attribute name="width">302</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">Google	</td>
+<td align="center">	75,68%	</td>
+</tr>
+<tr>
+<td align="left">Baidu	</td>
+<td align="center">	11,95%	</td>
+</tr>
+<tr>
+<td align="left">Yahoo	</td>
+<td align="center">	5,92%	</td>
+</tr>
+<tr>
+<td align="left">Bing	</td>
+<td align="center">	4,24%	</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_420522">
+<attribute name="seoline">sieg-gegen-frankreich-italien-ist-weltmeister</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Sieg gegen Frankreich</attribute>
+<attribute name="headline">Italien ist Weltmeister</attribute>
+<attribute name="popupparameters">width=778,height=679,menubar=no,scrollbars=no</attribute>
+<attribute name="articleid">420522</attribute>
+<attribute name="context">sport/fussball</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="target">/spon/article/420522</attribute>
+</asset>
+<asset cid="pic" oid="pic_1609942">
+<attribute name="width">520</attribute>
+<attribute name="height">250</attribute>
+<attribute name="credit">sayami.de</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1609942,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_673281">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">url</attribute>
+<attribute name="cearticleid">673281</attribute>
+<attribute name="url">http://einestages.spiegel.de/page/SearchAuthorAlbum.html</attribute>
+</asset>
+<asset cid="image" oid="image_1589">
+<attribute name="credit">DDP</attribute>
+<attribute name="token">rnpb</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="imagetype_panohpfree">515x200xjpg</attribute>
+<attribute name="imagetype_panocpfree">420x200xjpg</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">750x472xjpg</attribute>
+<attribute name="imagetype_galleryV9">850x535xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">420x264xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panohp">515x200xjpg</attribute>
+<attribute name="imagetype_panocp">420x200xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x248xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x220xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">480x302xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">750x472xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x42xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x124xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x143xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">960x604xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">302x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="pic" oid="pic_1609941">
+<attribute name="width">300</attribute>
+<attribute name="height">201</attribute>
+<attribute name="credit">sayami.de</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1609941,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_412190">
+<attribute name="seoline">formel-1-liveticker</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Formel-1-Liveticker</attribute>
+<attribute name="popupparameters">width=790,height=660,menubar=no,scrollbars=no</attribute>
+<attribute name="articleid">412190</attribute>
+<attribute name="context">sport/formel1</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="target">/spon/article/412190</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_408683">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">url</attribute>
+<attribute name="topic">Tagebuch 1945</attribute>
+<attribute name="headline">Als der Krieg nach Deutschland kam (Teil2)</attribute>
+<attribute name="cearticleid">408683</attribute>
+<attribute name="url">http://www.arcor.de/vod/spiegeltv/vod_1_2.jsp?rubrik=01_01&amp;vid=15495</attribute>
+</asset>
+<asset cid="pic" oid="pic_2678740">
+<attribute name="width">120</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">Facebook</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,2678740,00.jpg</attribute>
+</asset>
+<asset cid="multibox" oid="multibox_30567">
+<attribute name="modificationdate">2011-12-27T13:04:52.000+01:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="headline">Facebook: Das Weltnetz</attribute>
+<attribute name="channel">Netzwelt</attribute>
+<attribute name="style">accordion</attribute>
+<attribute name="headline.1">Mitglieder</attribute>
+<attribute name="body.1">
+<body>
+<cetag cid="pic" oid="pic_2678740">
+<attribute name="align">left</attribute>
+</cetag> Facebook ging Anfang 2004 als soziales Netzwerk für Harvard-Studenten online. Zunächst konnten nur Menschen mit E-Mail-Adressen ausgewählter US-Hochschulen Mitglieder werden, seit 2006 ist die Seite für alle Über-13-Jährigen offen. Nach Angaben von  Goldman Sachs hatte Facebook Anfang 2011 600 Millionen Mitglieder weltweit, nach eigenen Angaben loggt sich jeden Tag die Hälfte von ihnen auf der Seite ein (Stand: Januar 2011).</body>
+</attribute>
+<attribute name="headline.2">Plattform</attribute>
+<attribute name="body.2">
+<body>Seit Mai 2007 können externe Entwickler auf Nutzerdaten zugreifen, wenn die Facebook-Mitglieder dem zustimmen. Seit die <A HREF="http://www.spiegel.de/netzwelt/web/0,1518,484983,00.html" TARGET="BLANK">Plattform für externe Entwickler geöffnet wurde</A>, wächst das Angebot des einstigen Studentennetzwerk rasant  die Nutzer können aus <A HREF="http://www.spiegel.de/netzwelt/web/0,1518,498946,00.html" TARGET="BLANK">mehreren tausend kostenloser Anwendungen wählen</A>  Spielen, Fotoverwaltern, Programmen zum Abgleich von Lese-, Film- und Musikvorlieben zum Beispiel.</body>
+</attribute>
+<attribute name="headline.3">"Mir gefällt das"</attribute>
+<attribute name="body.3">
+<body>Facebook überall: Die "Mir gefällt das"-Funktion können Website-Betreiber auf ihren eigenen Seiten einbauen. Mit einem Klick teilen Facebook-Nutzer ihren Freunden mit, was ihnen gefällt. Im Gegenzug kann Facebook Werbung gezielter schalten - und weiß, <a href="http://www.spiegel.de/netzwelt/web/0,1518,690506,00.html">welche Seiten die Mitglieder ansurfen</a>.</body>
+</attribute>
+<attribute name="headline.4">Geschäft</attribute>
+<attribute name="body.4">
+<body>Der Umsatz von Facebook lag 2009 schätzungsweise bei 800 Millionen Dollar. Als Facebook-Gründer Mark Zuckerberg im November 2007 bei einer Präsentation in New York 250 <A HREF="http://www.spiegel.de/netzwelt/web/0,1518,515932,00.html" TARGET="BLANK">Werbekunden ein "Interface, um Erkenntnisse über die Facebook-Aktivitäten von Mitgliedern zu sammeln, die fürs Marketing relevant sind", versprach</A>, brach ein <A HREF="http://www.spiegel.de/netzwelt/web/0,1518,519295,00.html" TARGET="BLANK">Proteststurm los</A>.</body>
+</attribute>
+<attribute name="headline.5">Firmenwert</attribute>
+<attribute name="body.5">
+<body>Facebook hat Google 2010 als meistbesuchte Website in den USA überholt. Anfang 2011 investierten die US-Großbank Goldman Sachs und die russische Beteiligungsgruppe Digital Sky Technologies 500 Millionen Dollar in das US-Unternehmen. Der Wert des Netzwerks klettert <a href="http://www.spiegel.de/wirtschaft/unternehmen/0,1518,737425,00.html">auf 50 Milliarden Dollar</a>.</body>
+</attribute>
+<attribute name="headline.6">Hollywood</attribute>
+<attribute name="body.6">
+<body>Der Film zum Phänomen: Die Gründungsgeschichte von Facebook wurde 2010 von David Fincher mit Jesse Eisenberg in der Hauptrolle verfilmt. <a href="http://www.spiegel.de/kultur/kino/0,1518,719369,00.html">"The Social Network"</a> zeigt Zuckerberg als soziopathischen Nerd, der Facebook aus enttäuschter Liebe gründet.</body>
+</attribute>
+<attribute name="count">6</attribute>
+</asset>
+<asset cid="image" oid="image_138354">
+<attribute name="credit">AFP</attribute>
+<attribute name="token">rgyj</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_galleryV9">500x667xpng</attribute>
+<attribute name="imagetype_bigimage420">500x667xgif</attribute>
+<attribute name="imagetype_panohp">500x667xgif</attribute>
+<attribute name="imagetype_videothumbplayer">500x667xpng</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_45301">
+<attribute name="type">url</attribute>
+<attribute name="topic">Grimme Online Award</attribute>
+<attribute name="url">http://www.grimme-online-award.de/index_n.htm</attribute>
+</asset>
+<asset cid="pdf" oid="pdf_3619">
+<attribute name="name">Anklageschrift Jackson</attribute>
+<attribute name="filesize">259458</attribute>
+<attribute name="headline">Anklageschrift Jackson</attribute>
+<attribute name="channel.id">391</attribute>
+<attribute name="channel.path">extra</attribute>
+<attribute name="channel.szwprofile">1034</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/media/0,4906,3619,00.pdf</attribute>
+</asset>
+<asset cid="image" oid="image_204599">
+<attribute name="credit">REUTERS test</attribute>
+<attribute name="token">tlsv</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">750x443xjpg</attribute>
+<attribute name="imagetype_galleryV9">850x502xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">420x248xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x244xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x217xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">480x284xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">750x443xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x41xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x122xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x141xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">960x567xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">322x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_524640">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Kino</attribute>
+<attribute name="headline">Der letzte Lacher</attribute>
+<attribute name="cearticleid">524640</attribute>
+<attribute name="digasdok">54683234</attribute>
+<attribute name="magazinid">29</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_413575">
+<attribute name="type">article</attribute>
+<attribute name="topic">Abenteuer</attribute>
+<attribute name="headline">Mutter aller Schatzschiffe</attribute>
+<attribute name="articleid">413575</attribute>
+<attribute name="context">spiegel</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2006-04-29T00:00:00.000+02:00</attribute>
+<attribute name="target">/spon/article/413575</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85702">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Druckluftwaffe.html</attribute>
+<attribute name="name">Wikipedia: Druckluftwaffe</attribute>
+</asset>
+<asset cid="table" oid="table_5682">
+<attribute name="firstRowIsHead">0</attribute>
+<attribute name="firstColumnIsHead">0</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="headline">Tabelle Gruppe 4</attribute>
+<attribute name="assetid">5682</attribute>
+<attribute name="width">520</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">&lt;b&gt;Platz</td>
+<td align="left">&lt;b&gt;Land</td>
+<td align="center">&lt;b&gt;Spiele</td>
+<td align="center">&lt;b&gt;Tore</td>
+<td align="center">&lt;b&gt;Punkte</td>
+</tr>
+<tr>
+<td align="left">1.</td>
+<td align="left">Deutschland</td>
+<td align="center">10</td>
+<td align="center">26:5</td>
+<td align="center">26</td>
+</tr>
+<tr>
+<td align="left">2.</td>
+<td align="left">Russland</td>
+<td align="center">10</td>
+<td align="center">19:6</td>
+<td align="center">22</td>
+</tr>
+<tr>
+<td align="left">3.</td>
+<td align="left">Finnland</td>
+<td align="center">10</td>
+<td align="center">14:14</td>
+<td align="center">18</td>
+</tr>
+<tr>
+<td align="left">4.</td>
+<td align="left">Wales</td>
+<td align="center">10</td>
+<td align="center">9:12</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="left">5.</td>
+<td align="left">Aserbaidschan</td>
+<td align="center">10</td>
+<td align="center">4:14</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="left">6.</td>
+<td align="left">Liechtenstein</td>
+<td align="center">10</td>
+<td align="center">2:23</td>
+<td align="center">2</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_27527">
+<attribute name="type">url</attribute>
+<attribute name="topic">Forum Reformkurs</attribute>
+<attribute name="url">http://forum.spiegel.de/cgi-bin/WebX?13@@.ee75fc8</attribute>
+</asset>
+<asset cid="multibox" oid="multibox_41776">
+<attribute name="modificationdate">2011-11-24T15:48:14.000+01:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="headline">Marktanteile: Google und die Konkurrenz</attribute>
+<attribute name="channel">Netzwelt</attribute>
+<attribute name="style">accordion</attribute>
+<attribute name="headline.1">Browser</attribute>
+<attribute name="body.1">
+<body>
+<cetag cid="table" oid="table_7511"/>
+</body>
+</attribute>
+<attribute name="headline.2">Suche</attribute>
+<attribute name="body.2">
+<body>
+<cetag cid="table" oid="table_7509"/>
+</body>
+</attribute>
+<attribute name="headline.3">OS</attribute>
+<attribute name="body.3">
+<body>
+<cetag cid="table" oid="table_7510"/>
+</body>
+</attribute>
+<attribute name="headline.4">Werbung</attribute>
+<attribute name="body.4">
+<body>
+<cetag cid="table" oid="table_7527"/>
+</body>
+</attribute>
+<attribute name="headline.5">Mobil</attribute>
+<attribute name="body.5">
+<body>
+<cetag cid="table" oid="table_9337"/>
+</body>
+</attribute>
+<attribute name="count">5</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_254379">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">url</attribute>
+<attribute name="topic">Thema</attribute>
+<attribute name="headline">Neue Bücher</attribute>
+<attribute name="cearticleid">254379</attribute>
+<attribute name="url">http://www.spiegel.de/thema/vorgelesen/</attribute>
+</asset>
+<asset cid="pic" oid="pic_678339">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">DPA</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,678339,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_650530">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">asset</attribute>
+<attribute name="topic">PDF</attribute>
+<attribute name="headline">Diese Unternehmen haben unterschrieben</attribute>
+<attribute name="cearticleid">650530</attribute>
+<attribute name="asset">pdf_21705</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_515582">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Heilung</attribute>
+<attribute name="headline">Die Homöopathie Gottes</attribute>
+<attribute name="cearticleid">515582</attribute>
+<attribute name="digasdok">53533414</attribute>
+<attribute name="magazinid">54</attribute>
+</asset>
+<asset cid="gallery" oid="gallery_46172">
+<attribute name="typ">6</attribute>
+<attribute name="site">SPIEGEL ONLINE</attribute>
+<attribute name="topic">Wahl-Soap</attribute>
+<attribute name="headline">Terz im "Terzio"</attribute>
+<attribute name="headline.seo">Wahl-Soap: Terz im "Terzio"</attribute>
+<attribute name="teaser">Wird Cannabis legalisiert? Kommt der Mindestlohn? Müssen mehr Soldaten in den Afghanistan-Krieg? In vier Wochen können alle Deutschen über 18 bei der Bundestagswahl abstimmen. Wofür die Parteien stehen, zeigt SPIEGEL ONLINE in der interaktive Wahl-Soap "Zeit der Entscheidung".</attribute>
+<attribute name="modificationdate">2009-09-04T19:26:26.000+02:00</attribute>
+<attribute name="date">2009-09-03T15:25:00.000+02:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="bigthumb">0</attribute>
+<attribute name="seoline">wahl-soap-terz-im-terzio</attribute>
+<attribute name="channel.name">UniSPIEGEL</attribute>
+<attribute name="language">de</attribute>
+<attribute name="channel.id">273</attribute>
+<attribute name="channel.path">unispiegel</attribute>
+<attribute name="channel.feedbackmail">spon_unispiegel@spiegel.de</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1262</attribute>
+<attribute name="channel.szwprofile_0">1258</attribute>
+<attribute name="channel.allocationunit">unispiegel/artikel1</attribute>
+<attribute name="fullsizeoid">gallery_46172_full</attribute>
+<attribute name="picturecount">9</attribute>
+<cetag cid="image" oid="image_10477">
+<attribute name="content">Nova Meierhenrich spielt Franziska, die "schöne Fremde".</attribute>
+</cetag>
+<cetag cid="image" oid="image_10468">
+<attribute name="content">Am Set der Wahl-Soap: Terzio-Chef Rich, gespielt von Patrick Bach und Schauspielkollegin Sophia Thomalla.</attribute>
+</cetag>
+<cetag cid="image" oid="image_10457">
+<attribute name="content">Helge ist wissenschaftlicher Mitarbeiter an einer Unversität - und hofft, anders als die meisten Studenten, auf die Einführung von Studiengebühren.</attribute>
+</cetag>
+</asset>
+<asset cid="xlink" oid="xlink_85345">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Paintball.html</attribute>
+<attribute name="name">Wikipedia: Paintball</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_48560">
+<attribute name="type">url</attribute>
+<attribute name="topic">Bundeskriminalamt</attribute>
+<attribute name="url">http://www.bundeskriminalamt.de</attribute>
+</asset>
+<asset cid="pic" oid="pic_678376">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">DPA</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="fullsizeoid">pic_678375</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,678376,00.jpg</attribute>
+<attribute name="fullsizebinaryurl">http://www.spiegel.de/img/0,1020,678375,00.jpg</attribute>
+</asset>
+<asset cid="flash" oid="flash_24816">
+<attribute name="name">test schempp</attribute>
+<attribute name="filesize">4823</attribute>
+<attribute name="width">856</attribute>
+<attribute name="height">630</attribute>
+<attribute name="version">6</attribute>
+<attribute name="text">Test &amp; Flash\</attribute>
+<attribute name="color">ffffc3</attribute>
+<attribute name="htmlid">100728</attribute>
+<attribute name="buttontext">test flash button-text</attribute>
+<attribute name="motivid">204599</attribute>
+<attribute name="alternativeArticleId">825884</attribute>
+<attribute name="channel.id">405</attribute>
+<attribute name="channel.path">testchannel</attribute>
+<attribute name="channel.belegungseinheit">test</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1374</attribute>
+<attribute name="allocationunit">test</attribute>
+</asset>
+<asset cid="pic" oid="pic_678373">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">DPA</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="fullsizeoid">pic_678372</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,678373,00.jpg</attribute>
+<attribute name="fullsizebinaryurl">http://www.spiegel.de/img/0,1020,678372,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_413669">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Titel</attribute>
+<attribute name="headline">Triebwerk im Keller der Seele</attribute>
+<attribute name="cearticleid">413669</attribute>
+<attribute name="digasdok">46765839</attribute>
+<attribute name="magazinid">29</attribute>
+</asset>
+<asset cid="gallery" oid="gallery_38200">
+<attribute name="typ">2</attribute>
+<attribute name="site">SPIEGEL ONLINE</attribute>
+<attribute name="topic">Facebook</attribute>
+<attribute name="headline">So funktioniert SPIEGEL ONLINE in der Community</attribute>
+<attribute name="headline.seo">Facebook: So funktioniert SPIEGEL ONLINE in der Community</attribute>
+<attribute name="modificationdate">2010-04-27T13:44:28.000+02:00</attribute>
+<attribute name="date">2008-12-18T21:25:00.000+01:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="bigthumb">0</attribute>
+<attribute name="seoline">facebook-so-funktioniert-spiegel-online-in-der-community</attribute>
+<attribute name="channel.name">Netzwelt</attribute>
+<attribute name="language">de</attribute>
+<attribute name="channel.id">23</attribute>
+<attribute name="channel.path">netzwelt</attribute>
+<attribute name="channel.feedbackmail">spon_netzwelt@spiegel.de</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1160</attribute>
+<attribute name="channel.szwprofile_0">1148</attribute>
+<attribute name="channel.allocationunit">netzwelt/artikel1</attribute>
+<attribute name="fullsizeoid">gallery_38200_full</attribute>
+<attribute name="picturecount">9</attribute>
+<cetag cid="pic" oid="pic_1470371"/>
+<cetag cid="pic" oid="pic_1387154"/>
+<cetag cid="pic" oid="pic_1470374"/>
+</asset>
+<asset cid="ilinkbox" oid="ilinkbox_1">
+<cetag cid="ilink" oid="ilink_683989">
+<attribute name="topic">Dick &amp; Doof</attribute>
+</cetag>
+<cetag cid="ilink" oid="ilink_413669"/>
+<cetag cid="ilink" oid="ilink_413575"/>
+<cetag cid="ilink" oid="ilink_413981"/>
+<cetag cid="ilink" oid="ilink_294807"/>
+<cetag cid="ilink" oid="ilink_294802"/>
+<cetag cid="ilink" oid="ilink_294641"/>
+<cetag cid="ilink" oid="ilink_294578"/>
+<cetag cid="ilink" oid="ilink_312452"/>
+<cetag cid="ilink" oid="ilink_270087"/>
+<cetag cid="ilink" oid="ilink_270101">
+<attribute name="topic">werwerwer</attribute>
+</cetag>
+<cetag cid="ilink" oid="ilink_294812"/>
+<cetag cid="ilink" oid="ilink_412190"/>
+<cetag cid="ilink" oid="ilink_412652"/>
+<cetag cid="ilink" oid="ilink_361445"/>
+<cetag cid="ilink" oid="ilink_254379"/>
+<cetag cid="ilink" oid="ilink_414313"/>
+<cetag cid="ilink" oid="ilink_420522"/>
+<cetag cid="ilink" oid="ilink_650530"/>
+<cetag cid="ilink" oid="ilink_524640"/>
+<cetag cid="ilink" oid="ilink_550400"/>
+<cetag cid="ilink" oid="ilink_536110"/>
+<cetag cid="ilink" oid="ilink_515582"/>
+<cetag cid="ilink" oid="ilink_279641"/>
+<cetag cid="ilink" oid="ilink_673281"/>
+<cetag cid="ilink" oid="ilink_423836"/>
+<cetag cid="xlink" oid="xlink_27527"/>
+</asset>
+<asset cid="xlinkbox" oid="xlinkbox_1">
+<cetag cid="ilink" oid="ilink_621332"/>
+<cetag cid="ilink" oid="ilink_621910"/>
+<cetag cid="ilink" oid="ilink_408683"/>
+<cetag cid="xlink" oid="xlink_48560"/>
+<cetag cid="xlink" oid="xlink_22222">
+<attribute name="topic">Key3Media im Internet</attribute>
+</cetag>
+<cetag cid="xlink" oid="xlink_45301"/>
+<cetag cid="xlink" oid="xlink_42850"/>
+<cetag cid="xlink" oid="xlink_42851"/>
+</asset>
+<asset cid="image" oid="image_10477">
+<attribute name="credit">Nicole Manthey</attribute>
+<attribute name="token">tbnt</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">416x600xjpg</attribute>
+<attribute name="imagetype_galleryV9">416x600xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">291x420xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x250xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x222xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">319x460xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">519x750xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x42xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x125xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x144xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">665x960xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">132x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="table" oid="table_7511">
+<attribute name="firstRowIsHead">0</attribute>
+<attribute name="firstColumnIsHead">1</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="footer">*weltweiter Marktanteil, erhoben auf der Webbrowser-Angabe, Stand: Januar 2012, Quelle: &lt;A HREF="http://marketshare.hitslink.com/report.aspx?qprid=0&amp;qpmr=15&amp;qpdt=1&amp;qpct=3&amp;qpcal=1&amp;qpcal=1&amp;qpcal=1&amp;qpcal=1&amp;qptimeframe=M&amp;qpsp=144&amp;qpcustomd=0" TARGET="BLANK"&gt;Net Applications&lt;/A&gt;&#13;
+</attribute>
+<attribute name="assetid">7511</attribute>
+<attribute name="width">302</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">Microsoft Internet Explorer	</td>
+<td align="center">	58,35%	</td>
+</tr>
+<tr>
+<td align="left">Firefox	</td>
+<td align="center">	23,72%	</td>
+</tr>
+<tr>
+<td align="left">Chrome (Google)	</td>
+<td align="center">	11,50%	</td>
+</tr>
+<tr>
+<td align="left">Safari (Apple)	</td>
+<td align="center">	4,15%	</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_279641">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Mode Spezial</attribute>
+<attribute name="headline">Slowakei</attribute>
+<attribute name="cearticleid">279641</attribute>
+<attribute name="digasdok">29585874</attribute>
+<attribute name="magazinid">41</attribute>
+</asset>
+<asset cid="table" oid="table_7510">
+<attribute name="firstRowIsHead">0</attribute>
+<attribute name="firstColumnIsHead">1</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="footer">*weltweit, erhoben auf der Webbrowser-Angabe zum user-agent  Stand: Februar 2012, Quelle: &lt;A HREF="http://marketshare.hitslink.com/operating-system-market-share.aspx?qprid=8&amp;qpcustomd=0" TARGET="BLANK"&gt;Net Applications&lt;/A&gt;&#13;
+</attribute>
+<attribute name="assetid">7510</attribute>
+<attribute name="width">302</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">Windows	</td>
+<td align="center">	91,92%	</td>
+</tr>
+<tr>
+<td align="left">Mac	</td>
+<td align="center">	6,92%	</td>
+</tr>
+<tr>
+<td align="left">Linux	</td>
+<td align="center">	1,16%	</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_550400">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Das griechische Ideal</attribute>
+<attribute name="headline">Taktiker und Tückebold</attribute>
+<attribute name="cearticleid">550400</attribute>
+<attribute name="digasdok">56767780</attribute>
+<attribute name="magazinid">107</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_294641">
+<attribute name="seoline">recht-reisebuero-muss-sich-bei-flugtickets-an-vereinbarte-preise-halten</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Recht</attribute>
+<attribute name="headline">Reisebüro muss sich bei Flugtickets an vereinbarte Preise halten</attribute>
+<attribute name="articleid">294641</attribute>
+<attribute name="context">reise/aktuell</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2004-04-13T05:59:09.000+02:00</attribute>
+<attribute name="target">/spon/article/294641</attribute>
+</asset>
+<asset cid="table" oid="table_7527">
+<attribute name="firstRowIsHead">1</attribute>
+<attribute name="firstColumnIsHead">1</attribute>
+<attribute name="toggleRow">1</attribute>
+<attribute name="toggleColumn">0</attribute>
+<attribute name="footer">*Werbeumsätze 2011, weltweit in Mrd. Dollar, veröffentlicht von &lt;A HREF="http://www.zenithoptimedia.com/files/media/image/news/Press%20Release%20files/2011/December/Adspend%20forecasts%20December%202011.pdf" TARGET="BLANK"&gt;ZenithOptimedia&lt;/A&gt; 15. März 2012, Googles &lt;A HREF="http://investor.google.com/fin_data.html" TARGET="BLANK"&gt;Werbeumsatz im Jahr 2011&lt;/A&gt;&#13;
+</attribute>
+<attribute name="assetid">7527</attribute>
+<attribute name="width">302</attribute>
+<attribute name="table">
+<table>
+<tr>
+<td align="left">	</td>
+<td align="left">	Umsatz gesamt*	</td>
+<td align="left">	Umsatz Google*	</td>
+<td align="left">	Anteil Google (in %)	</td>
+</tr>
+<tr>
+<td align="left">Internet	</td>
+<td align="center">	72,842	</td>
+<td align="center">	36,531	</td>
+<td align="center">	50,15	</td>
+</tr>
+<tr>
+<td align="left">Magazine	</td>
+<td align="center">	43,122	</td>
+<td align="center">	0	</td>
+<td align="center">		</td>
+</tr>
+<tr>
+<td align="left">TV	</td>
+<td align="center">	184,29	</td>
+<td align="center">	0	</td>
+<td align="center">		</td>
+</tr>
+<tr>
+<td align="left">Zeitungen	</td>
+<td align="center">	91,495	</td>
+<td align="center">	0	</td>
+<td align="center">		</td>
+</tr>
+<tr>
+<td align="left">gesamt	</td>
+<td align="center">	458,385	</td>
+<td align="center">	36,531	</td>
+<td align="center">	7,97	</td>
+</tr>
+</table>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_270101">
+<attribute name="seoline">demokratische-sozialisten-bisky-geht-auf-lafontaine-zu</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Demokratische Sozialisten</attribute>
+<attribute name="headline">Bisky geht auf Lafontaine zu</attribute>
+<attribute name="articleid">270101</attribute>
+<attribute name="context">politik/deutschland</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2003-10-16T18:26:01.000+02:00</attribute>
+<attribute name="target">/spon/article/270101</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85359">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Sportverband.html</attribute>
+<attribute name="name">Wikipedia: Sportverband</attribute>
+</asset>
+<asset cid="pic" oid="pic_1473819">
+<attribute name="width">180</attribute>
+<attribute name="height">135</attribute>
+<attribute name="credit">ProSieben</attribute>
+<attribute name="fullsizeoid">pic_1473818</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,1473819,00.jpg</attribute>
+<attribute name="fullsizebinaryurl">http://www.spiegel.de/img/0,1020,1473818,00.jpg</attribute>
+</asset>
+<asset cid="flashvideo" oid="flashvideo_99000243">
+<attribute name="status">live</attribute>
+<attribute name="videoid">99000243</attribute>
+<attribute name="filename">SPIEGEL.TV Waffenwahn</attribute>
+<attribute name="credit">SPIEGEL.TV</attribute>
+<attribute name="thema">Bewaffnetes Land</attribute>
+<attribute name="headline">Waffenwahn und Schießwut</attribute>
+<attribute name="datum">2011-11-10T17:54:00.000+01:00</attribute>
+<attribute name="modificationdate">2011-11-10T17:55:04.000+01:00</attribute>
+<attribute name="allowads">true</attribute>
+<attribute name="embeddable">false</attribute>
+<attribute name="cdnhost">http://video.spiegel.de/flash/</attribute>
+<attribute name="isextern">1</attribute>
+<attribute name="url">http://www.spiegel.tv/filme/waffen-trailer/</attribute>
+<attribute name="externequelle">SPIEGEL.TV</attribute>
+<cetag cid="image" oid="image_281816"/>
+</asset>
+<asset cid="flashvideo" oid="flashvideo_1056231">
+<attribute name="status">live</attribute>
+<attribute name="videoid">1056231</attribute>
+<attribute name="filename">Zeitleiste Helmut Kohl: Der Wahlsieg</attribute>
+<attribute name="credit">SPIEGEL ONLINE</attribute>
+<attribute name="thema">Zeitleiste Helmut Kohl</attribute>
+<attribute name="headline">Der Wahlsieg</attribute>
+<attribute name="datum">2010-03-18T17:32:00.000+01:00</attribute>
+<attribute name="duration">00:27</attribute>
+<attribute name="modificationdate">2010-03-18T17:57:35.000+01:00</attribute>
+<attribute name="allowads">false</attribute>
+<attribute name="embeddable">false</attribute>
+<attribute name="categoryid">10</attribute>
+<attribute name="cdnhost">http://video.spiegel.de/flash/</attribute>
+<cetag cid="image" oid="image_70188"/>
+</asset>
+<asset cid="pic" oid="pic_371434">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">Hans-Dieter Schäfer</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,371434,00.jpg</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_22222">
+<attribute name="type">url</attribute>
+<attribute name="topic">Key3Media im Internet</attribute>
+<attribute name="url">http://www.key3media.com</attribute>
+</asset>
+<asset cid="flash" oid="flash_21285">
+<attribute name="name">Flash: Wahlfahrt Reportage GoogleMap</attribute>
+<attribute name="filesize">120538</attribute>
+<attribute name="width">300</attribute>
+<attribute name="height">300</attribute>
+<attribute name="version">8</attribute>
+<attribute name="text">Wahlfahrt</attribute>
+<attribute name="color">ffffff</attribute>
+<attribute name="channel.id">20</attribute>
+<attribute name="channel.path">politik</attribute>
+<attribute name="channel.belegungseinheit">politik</attribute>
+<attribute name="channel.rssfeed">true</attribute>
+<attribute name="channel.szwprofile">1019</attribute>
+<attribute name="allocationunit">politik</attribute>
+<cetag cid="pic" oid="pic_1609941">
+<attribute name="imagetyp">1</attribute>
+</cetag>
+<cetag cid="pic" oid="pic_1609942">
+<attribute name="imagetyp">2</attribute>
+</cetag>
+</asset>
+<asset cid="ilink" oid="ilink_294802">
+<attribute name="seoline">anschlaege-in-kaschmir-leiche-explodiert-vier-tote</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Anschläge in Kaschmir</attribute>
+<attribute name="headline">Leiche explodiert - vier Tote</attribute>
+<attribute name="articleid">294802</attribute>
+<attribute name="context">politik/ausland</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2004-04-08T18:57:06.000+02:00</attribute>
+<attribute name="target">/spon/article/294802</attribute>
+</asset>
+<asset cid="pic" oid="pic_678369">
+<attribute name="width">90</attribute>
+<attribute name="height">90</attribute>
+<attribute name="credit">AFP</attribute>
+<attribute name="rssRecommended">true</attribute>
+<attribute name="binaryurl">http://www.spiegel.de/img/0,1020,678369,00.jpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_294807">
+<attribute name="seoline">video-fund-madrider-terrorzelle-wollte-regierung-zu-irak-abzug-zwingen</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Video-Fund</attribute>
+<attribute name="headline">Madrider Terrorzelle wollte Regierung zu Irak-Abzug zwingen</attribute>
+<attribute name="articleid">294807</attribute>
+<attribute name="context">politik/ausland</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2004-04-08T21:05:38.000+02:00</attribute>
+<attribute name="target">/spon/article/294807</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_294578">
+<attribute name="seoline">geiselnahme-im-irak-wir-werden-sie-bei-lebendigem-leib-verbrennen</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Geiselnahme im Irak</attribute>
+<attribute name="headline">"Wir werden sie bei lebendigem Leib verbrennen"</attribute>
+<attribute name="articleid">294578</attribute>
+<attribute name="context">politik/ausland</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2004-04-08T14:12:43.000+02:00</attribute>
+<attribute name="target">/spon/article/294578</attribute>
+</asset>
+<asset cid="html" oid="html_50768">
+<attribute name="modificationdate">2010-05-07T16:21:18.000+02:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="channel">Extra</attribute>
+<attribute name="style">content_plain</attribute>
+<attribute name="body">
+<body/>
+</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_423836">
+<attribute name="seoline">test-seo-line</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Themaü</attribute>
+<attribute name="headline">EineGanzLangeHeadlineOhneLeerzeichen</attribute>
+<attribute name="articleid">423836</attribute>
+<attribute name="context">testchannel/testbereich</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2011-01-03T17:12:00.000+01:00</attribute>
+<attribute name="target">/spon/article/423836</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_412652">
+<attribute name="seoline">formel-1-wertung-massa-jagt-hamilton</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Formel-1-Wertung</attribute>
+<attribute name="headline">Massa jagt Hamilton</attribute>
+<attribute name="popupparameters">width=790,height=660,menubar=no,scrollbars=no</attribute>
+<attribute name="articleid">412652</attribute>
+<attribute name="context">sport/formel1</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="target">/spon/article/412652</attribute>
+</asset>
+<asset cid="multibox" oid="multibox_28713">
+<attribute name="modificationdate">2010-12-28T19:08:22.000+01:00</attribute>
+<attribute name="status">live</attribute>
+<attribute name="headline">Der neue Wada-Code</attribute>
+<attribute name="channel">Sport</attribute>
+<attribute name="style">accordion</attribute>
+<attribute name="headline.1">Härtere Strafen</attribute>
+<attribute name="body.1">
+<body>Für schwerwiegende Erstverstöße wie systematisches Doping oder Verhinderung der Aufdeckung von Vergehen wurde die Sperre von zwei auf vier Jahre angehoben. Drei Verstöße gegen die Meldepflicht ("Missed Tests") binnen 18 Monaten führen zu einer Sperre von ein bis zwei Jahren.
+Nach einer positiven A-Probe wird eine provisorische Suspendierung des Athleten ausgesprochen. Die B-Probe muss spätestens sieben Tage später analysiert sein.</body>
+</attribute>
+<attribute name="headline.2">Flexibilität</attribute>
+<attribute name="body.2">
+<body>In Einzelfällen können besondere Umstände berücksichtigt werden und flexiblere Strafen verhängt werden. Eine Strafminderung kann z.B. gewährt werden, wenn ein Athlet beweisen kann, dass eine verbotene Substanz ohne Verschulden in seinen Körper gelangt ist. Außer Sperren können zusätzlich Geldbußen verhängt werden. 
+</body>
+</attribute>
+<attribute name="headline.3">Kronzeugenregelung</attribute>
+<attribute name="body.3">
+<body>Die Kronzeugenregelung ist erweitert worden. Wenn ein Athlet die Aufdeckung von Dopingverstößen Dritter substantiell mit Detailinformationen unterstützt, kann die Sperre um bis zu 75 Prozent reduziert werden. Eine Verkürzung bis um die Hälfte wird eingeräumt, wenn ein Athlet Doping gesteht, bevor er positiv kontrolliert wurde.</body>
+</attribute>
+<attribute name="headline.4">Gültigkeit</attribute>
+<attribute name="body.4">
+<body>Der neue Welt-Anti-Doping-Code, beschlossen auf der Welt-Anti-Doping-Konferenz in Madrid Mitte November 2007, ist seit dem 1. Januar 2009 gültig. Die "Deklaration von Madrid" verpflichtet alle Organisationen des Sports, ihre Statuten dem neuen Code anzugleichen. Gleichzeitig werden alle Regierungen aufgerufen, die Unesco-Konvention gegen Doping zu unterzeichnen und damit den Code als universell verbindlich anzuerkennen.
+</body>
+</attribute>
+<attribute name="count">4</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_683989">
+<attribute name="seoline">fresswahn-amerikanerin-will-dickste-frau-der-welt-werden</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Fresswahn</attribute>
+<attribute name="headline">Amerikanerin will dickste Frau der Welt werden</attribute>
+<attribute name="articleid">683989</attribute>
+<attribute name="context">panorama</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2010-03-16T21:09:05.000+01:00</attribute>
+<attribute name="target">/spon/article/683989</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_413981">
+<attribute name="seoline">iraq-on-the-verge-of-collapse</attribute>
+<attribute name="type">article</attribute>
+<attribute name="topic">Iraq</attribute>
+<attribute name="headline">On the Verge of Collapse</attribute>
+<attribute name="articleid">413981</attribute>
+<attribute name="context">international/spiegel</attribute>
+<attribute name="site">spon</attribute>
+<attribute name="date">2006-05-01T15:38:08.000+02:00</attribute>
+<attribute name="target">/spon/article/413981</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85363">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Gelatine.html</attribute>
+<attribute name="name">Wikipedia: Gelatine</attribute>
+</asset>
+<asset cid="image" oid="image_10468">
+<attribute name="credit">Nicole Manthey</attribute>
+<attribute name="token">sxjm</attribute>
+<attribute name="imagetype_thumb">180x180xjpg</attribute>
+<attribute name="imagetype_thumbsmall">90x90xjpg</attribute>
+<attribute name="imagetype_gallery">750x514xjpg</attribute>
+<attribute name="imagetype_galleryV9">850x582xjpg</attribute>
+<attribute name="imagetype_thumbmultimedia">120x120xjpg</attribute>
+<attribute name="imagetype_bigimage420">420x288xjpg</attribute>
+<attribute name="imagetype_thumbbiga">160x120xjpg</attribute>
+<attribute name="imagetype_thumbbigasmall">96x72xjpg</attribute>
+<attribute name="imagetype_panoV9">520x250xjpg</attribute>
+<attribute name="imagetype_panoV9free">520x250xjpg</attribute>
+<attribute name="imagetype_thumbflex">302x302xjpg</attribute>
+<attribute name="imagetype_hpcpleftcolumn">120x90xjpg</attribute>
+<attribute name="imagetype_panomobile">462x222xjpg</attribute>
+<attribute name="imagetype_thumbbigamobile">100x75xjpg</attribute>
+<attribute name="imagetype_galleryV9mobile">480x329xjpg</attribute>
+<attribute name="imagetype_square353">353x353xjpg</attribute>
+<attribute name="imagetype_thumb302">302x302xjpg</attribute>
+<attribute name="imagetype_hbm_gallery">750x514xjpg</attribute>
+<attribute name="imagetype_thumbxl">520x520xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_small">88x42xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_middle">261x125xjpg</attribute>
+<attribute name="imagetype_panoV9free_fussballapp_big">300x144xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_big">960x657xjpg</attribute>
+<attribute name="imagetype_galleryV9_fussballapp_small">277x190xjpg</attribute>
+<attribute name="imagetype_thumb_news">92x67xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle">140x140xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_middle2">160x160xjpg</attribute>
+<attribute name="imagetype_quadrat_fussballapp_large">280x280xjpg</attribute>
+</asset>
+<asset cid="ilink" oid="ilink_536110">
+<attribute name="isWeiterleitung">true</attribute>
+<attribute name="type">digasdok</attribute>
+<attribute name="topic">Campuscharts</attribute>
+<attribute name="headline">Playlist</attribute>
+<attribute name="cearticleid">536110</attribute>
+<attribute name="digasdok">55860262</attribute>
+<attribute name="magazinid">42</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85362">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Lebensmittelfarbstoff.html</attribute>
+<attribute name="name">Wikipedia: Lebensmittelfarbstoff</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85361">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/thema/kohlendioxid/</attribute>
+<attribute name="name">Themenseite: Kohlendioxid</attribute>
+</asset>
+<asset cid="xlink" oid="xlink_85360">
+<attribute name="type">url</attribute>
+<attribute name="url">http://www.spiegel.de/wikipedia/Turnier.html</attribute>
+<attribute name="name">Wikipedia: Turnier</attribute>
+</asset>
+</assets>
+</contentlist>
