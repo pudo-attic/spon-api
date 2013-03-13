@@ -6,6 +6,7 @@
     "coffee-script": "*",
     "cheerio": ">= 0.10.7",
     "express": "3.x",
-    "underscore": ">= 1.4.4"
+    "underscore": ">= 1.4.4",
+    "solr": "0.2.2"
   }
 }
