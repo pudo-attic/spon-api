@@ -5,8 +5,12 @@ exports.toURL = (parts...) ->
   return parts.join '/'
 
 exports.isoDate = (text) ->
-  date = new Date text
-  return date.toISOString()
+  try
+    date = new Date text
+    return date.toISOString()
+  catch error
+    console.error 'Invalid date: ' + text
+    return null
 
 exports.flatten = (data, sep = '_') ->
   out = {}

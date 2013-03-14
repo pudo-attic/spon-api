@@ -21,7 +21,7 @@ exports.add = (data, callback) ->
     if err?
       callback err
     client.commit (err) ->
-      console.log 'Indexed: ' + flat.query
+      console.log 'Indexed: ' + flat.url + ', ' + flat.query
       callback err
 
 exports.query = (q, options, callback) ->
@@ -30,6 +30,13 @@ exports.query = (q, options, callback) ->
   client = getClient()
   client.query q, options, (err, res) ->
     if err?
-      callback null, err
-    data = JSON.parse(res)
-    callback data, null
+      try
+        data = err.toString().substring 7
+        err = JSON.parse(data).error
+      catch fail
+        err = 
+          msg: err.toString()
+      return callback null, err
+    data = JSON.parse res
+    return callback data, err
+

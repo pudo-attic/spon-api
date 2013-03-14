@@ -3,15 +3,21 @@ config = require './config'
 article = require './parser/article'
 index = require './index'
 
-exports.parseData = (data, respond) ->
-  $ = cheerio.load data,
+exports.parseData = (xml, respond) ->
+  $ = cheerio.load xml,
     xmlMode: true
-  data = article.parse $
-  index.add data, (err) ->
-    if err?
-      console.warn err
-      respond 500
-    respond 200
+  try
+    data = article.parse $
+    if not data.id?
+      respond 400
+    index.add data, (err) ->
+      if err?
+        console.warn err
+        respond 500
+      respond 200
+  catch error
+    console.error error
+    respond 500
 
 
 exports.handleReq = (req, res) ->

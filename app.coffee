@@ -8,12 +8,12 @@ app = express()
 app.use express.logger()
 app.use express.compress()
 app.use express.errorHandler()
-# app.use express.bodyParser()
 app.use express.static __dirname + '/static'
+app.disable "x-powered-by"
 
 app.get '/status', (req, res) ->
-  res.send 
-    hello: 'world!'
+  res.jsonp 200,
+    status: 'ok'
 
 app.post '/import', importer.handleReq
 

@@ -2,45 +2,81 @@ index = require '../lib/index'
 config = require '../lib/config'
 util = require './util'
 
+PAGE_SIZE = 10
+
 baseOptions = () ->
   options =
-    fq = ['+type:article']
-  if config.safe
-    options.fq.push '+state:live'
+    fq: ['+type:article', '+status:live']
   return options
 
+buildOptions = (query) ->
+  options = baseOptions()
+  options.sort = query.sort or 'launchdate desc'
+
+  options.rows = parseInt query.limit, 10
+  options.rows = options.rows is NaN ? PAGE_SIZE : options.rows
+  options.rows = Math.min 500, options.rows
+
+  options.start = parseInt query.offset, 0
+  options.start = Math.max 0, options.start or 0
+
+  options.fq = options.fq.concat util.asList query.filter
+  facets = util.asList query.facet
+  if facets?
+    options.facet = true
+    options['facet.field'] = facets
+    limit = parseInt query['facet-limit'], 10
+    options['facet.limit'] = Math.min 500, limit or PAGE_SIZE
+
+  return options
 
 exports.index = (req, res) ->
-  options = baseOptions()
+  options = buildOptions req.query
+
   q = req.query.q or '*:*'
   index.query q, options, (data, err) ->
     if err?
-      res.status 400
-      res.send err
-    results = []
+      return res.jsonp 400, err
+
+    resdata =
+      count: data.response.numFound
+      results: []
+
     for doc in util.unpackDocs data.response.docs
       delete doc.body
       delete doc.authors
       delete doc.topics
-      doc.api_url = util.url_for 'v1/spon/article', doc.id
-      results.push doc
-    res.send 
-      count: data.response.numFound
-      results: doc
+      delete doc.channel
+      delete doc.rubric
+      delete doc.query
+      delete doc.type
+      delete doc.authorline
+      delete doc.status
+      doc.api_url = util.urlFor 'v1/spon/article', doc.id
+      resdata.results.push doc
+
+    facets = util.getFacetCounts options['facet.field'], data
+    if facets?
+      resdata.facets = facets
+
+    if not config.production
+      resdata.options = options
+
+    res.jsonp 200, resdata
 
 
 exports.get = (req, res) ->
   options = baseOptions()
   index.query '+id:' + req.params.id, options, (data, err) ->
     if err?
-      res.status 400
-      res.send err
+      return res.jsonp 400, err
 
     if data.response.numFound isnt 1
-      res.send 404
+      return res.jsonp 404,
+        msg: 'Not found.'
 
     for doc in util.unpackDocs data.response.docs
       delete doc.score
-      doc.api_url = util.url_for 'v1/spon/article', doc.id
-      res.send doc
+      doc.api_url = util.urlFor 'v1/spon/article', doc.id
+      res.jsonp 200, doc
 
