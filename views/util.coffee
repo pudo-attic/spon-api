@@ -22,6 +22,8 @@ exports.asList = (data) ->
 
 exports.getFacetCounts = (fields, data) ->
   facets = {}
+  if not fields
+    return facets
   for facet in fields
     facets[facet] = {}
     key = null

@@ -7,15 +7,17 @@ util = require './util'
 
 PAGE_SIZE = 10
 
+
 baseOptions = () ->
   options =
     fq: ['+type:article', '+status:live']
   return options
 
+
 buildOptions = (query) ->
   options = baseOptions()
   options.sort = query.sort or 'launchdate desc'
-  
+
   if query.limit?
     options.rows = parseInt query.limit, 10
     if options.rows is NaN or options.rows > 500
@@ -27,14 +29,15 @@ buildOptions = (query) ->
   options.start = Math.max 0, options.start or 0
 
   options.fq = options.fq.concat util.asList query.filter
-  facets = util.asList query.facet
-  if facets?
+  if query.facet?
+    facets = util.asList query.facet
     options.facet = true
     options['facet.field'] = facets
     limit = parseInt query['facet-limit'], 10
     options['facet.limit'] = Math.min 500, limit or PAGE_SIZE
 
   return options
+
 
 exports.index = (req, res) ->
   options = buildOptions req.query
