@@ -4,6 +4,10 @@ exports.toURL = (parts...) ->
   parts = ['http://www.spiegel.de'].concat parts
   return parts.join '/'
 
+exports.isoDate = (text) ->
+  date = new Date text
+  return date.toISOString()
+
 exports.flatten = (data, sep = '_') ->
   out = {}
   for k, v of data
