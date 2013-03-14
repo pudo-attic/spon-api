@@ -10,8 +10,9 @@ add_options =
 getClient = () ->
   return solr.createClient
     host: config.solr.hostname
-    port: config.solr.port
+    port: config.solr.port or 80
     path: config.solr.path
+    auth: config.solr.auth
 
 exports.add = (data, callback) ->
   flat = util.flatten data
