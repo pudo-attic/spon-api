@@ -1,3 +1,6 @@
+_ = require 'underscore'
+qs = require 'querystring'
+
 index = require '../lib/index'
 config = require '../lib/config'
 util = require './util'
@@ -64,6 +67,16 @@ exports.index = (req, res) ->
 
     if not config.production
       resdata.options = options
+
+    if options.start + options.rows < resdata.count
+      q = qs.stringify _.extend {}, res.query,
+        offset: options.start + options.rows
+      resdata.next_url = util.urlFor 'v1/spon/article?' + q
+
+    if options.start > 0
+      q = qs.stringify _.extend {}, res.query,
+        offset: Math.max 0, options.start - options.rows
+      resdata.prev_url = util.urlFor 'v1/spon/article?' + q
 
     res.jsonp 200, resdata
 
