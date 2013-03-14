@@ -24,3 +24,12 @@ exports.add = (data, callback) ->
       console.log 'Indexed: ' + flat.query
       callback err
 
+exports.query = (q, options, callback) ->
+  options.fl = 'score,json'
+  options.df = 'text'
+  client = getClient()
+  client.query q, options, (err, res) ->
+    if err?
+      callback null, err
+    data = JSON.parse(res)
+    callback data, null
