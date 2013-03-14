@@ -12,10 +12,13 @@ baseOptions = () ->
 buildOptions = (query) ->
   options = baseOptions()
   options.sort = query.sort or 'launchdate desc'
-
-  options.rows = parseInt query.limit, 10
-  options.rows = options.rows is NaN ? PAGE_SIZE : options.rows
-  options.rows = Math.min 500, options.rows
+  
+  if query.limit?
+    options.rows = parseInt query.limit, 10
+    if options.rows is NaN or options.rows > 500
+      options.rows = PAGE_SIZE
+  else
+    options.rows = PAGE_SIZE
 
   options.start = parseInt query.offset, 0
   options.start = Math.max 0, options.start or 0
