@@ -32,6 +32,7 @@ buildOptions = (query) ->
   if query.facet?
     facets = util.asList query.facet
     options.facet = true
+    options['facet.mincount'] = 1
     options['facet.field'] = facets
     limit = parseInt query['facet-limit'], 10
     options['facet.limit'] = Math.min 500, limit or PAGE_SIZE
