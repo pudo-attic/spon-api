@@ -1,0 +1,13 @@
+[program:spon-api.pudo.org]
+command=/usr/local/bin/coffee app.coffee
+directory=/var/www/spon-api.pudo.org/app
+environment=PORT=19501,
+  WEBSOLR_URL="http://localhost:8080/solr/spon",
+  SPON_IMPORT_SECRET=XXXXXXXXXX,
+  SPON_BASE_URL="http://spon-api.pudo.org"
+user=www-data
+autostart=true
+autorestart=true
+stdout_logfile=/var/www/spon-api.pudo.org/logs/supervisord.log
+redirect_stderr=true
+
