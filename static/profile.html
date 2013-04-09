@@ -24,7 +24,7 @@ asdf
   <script type="text/javascript">
     $(function() {
       
-      var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc';
+      var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
 
       function init() {
         Tabletop.init( { key: public_spreadsheet_url,
@@ -33,7 +33,7 @@ asdf
       }
 
       function showInfo(data, tabletop) {
-        alert("Successfully processed" + data.length + " rows!")
+        alert("Successfully processed" + data.length + " rows!");
         console.log(data);
       }
 
