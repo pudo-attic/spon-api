@@ -11,16 +11,36 @@ body, p {
   margin: 0.5em auto;
 }
 
+a, a:visited, a:hover {
+  color: #900;
+}
+
 iframe {
   overflow: hidden;
 }
 
-h1 {
-  font-size: 2.2em;
+h1, h2, h3 {
   line-height: 1.1em;
   font-weight: normal;
   color: #111;
   font-family: 'SpiegelHeadlineWeb', Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+footer .container {
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
 }
 
 ul#menu {
@@ -82,4 +102,6 @@ ul#menu li ul li p {
   font-size: 0.9em;
 }
 
-
+code {
+  color: #ff724b;
+}
