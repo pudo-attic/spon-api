@@ -3,13 +3,29 @@ title: Autorenprofil-Demo
 layout: default
 ---
 
+<style>
+  .topics-list {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  .topics-list li {
+    margin-top: 0.2em;
+  }
+
+  .topics-list small {
+    color: #999;
+  }
+</style>
+
 <div class="row">
   <div class="span12">
     <h1 class="page-header">Sponti-Profile</h1>
   </div>
 </div>
 
-<div class="row" id="canvas">
+<div id="canvas">
 </div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
@@ -29,13 +45,29 @@ layout: default
     }
 
     function showListing(data) {
-      console.log(data);
       $canvas.empty();
       $canvas.html(listingTemplate({'authors': data}));
     }
 
     function showProfile(data, id) {
+      var profile = _.find(data, function(r) { return r.abbr == id; });
+      $canvas.empty();
+      $.ajax({
+        data: {facet: ['topics_name'], 'facet-limit': 30,
+               filter: '+authors_name:"' + profile.indexname + '"'
+              },
+        dataType: 'jsonp',
+        url: 'http://spon-api.pudo.org/v1/spon/article',
+        success: function(data) { renderProfile(profile, data); }
+      });
+    }
 
+    function renderProfile(profile, data) {
+      profile.count = data.count;
+      profile.articles = data.results;
+      profile.topics = _.pairs(data.facets.topics_name);
+      console.log(profile);
+      $canvas.html(profileTemplate(profile));
     }
 
     function showInfo(data, tabletop) {
@@ -56,16 +88,42 @@ layout: default
 </script>
 
 <script id='author-listing' type='text/underscore-template'>
-  <% _.each(authors, function(author){ %>
-    <div class="span3">
-      <a href='#<%- author.abbr %>'><img src="<%- author.imageurl %>"></a>
-      <h4><a href='#<%- author.abbr %>'><%- author.plainname %></a> <small><%- author.abbr %></small></h4>
-    </div>
-  <% }); %>
+  <div class="row">
+    <% _.each(authors, function(author){ %>
+      <div class="span3">
+        <a href='#<%- author.abbr %>'><img src="<%- author.imageurl %>"></a>
+        <h4><a href='#<%- author.abbr %>'><%- author.plainname %></a> <small><%- author.abbr %></small></h4>
+      </div>
+    <% }); %>
+  </div>
 </script>
 
 <script id='author-profile' type='text/underscore-template'>
-  <div class="span4">
-    <h3><%- plain_name %></h3>
+  <div class="row">
+    <div class="span3">
+      <img src="<%- imageurl %>">
+    </div>
+    <div class="span9">
+      <h2><%- plainname %> <small><%- title %></small></h2>
+      <p><%- bio %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span3">
+      <ul class="topics-list">
+      <% _.each(topics, function(topic){ %>
+        <li><a href='#'><%- topic[0] %></a> <small><%- topic[1] %></small></li>
+      <% }); %>
+      </ul>
+    </div>
+    <div class="span9" id="results-area">
+      <% _.each(articles, function(article){ %>
+        <div class="article">
+          <h3><a target="_blank" href="<%- article.url %>"><%- article.topic %>: <span class='headline'><%- article.headline %></span></a></h3>
+          <p><span class="date"><%- moment(article.launchdate).format('DD.MM.YYYY') %></span>
+          <%- article.teaser %></p>
+        </div>
+      <% }); %>
+    </div>
   </div>
 </script>
