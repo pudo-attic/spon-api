@@ -7,8 +7,8 @@ body, p {
 }
 
 .container {
-  width: 856px;
-  margin: 0.5em auto;
+  /*width: 856px;
+  margin: 0.5em auto;*/
 }
 
 a, a:visited, a:hover {
@@ -17,6 +17,10 @@ a, a:visited, a:hover {
 
 a .headline {
   color: #000;
+}
+
+a img.boxed {
+  border: 2px solid #eee;
 }
 
 iframe {
@@ -42,9 +46,18 @@ h3 {
   font-size: 1.8em;
 }
 
+.tpc {
+  margin-top: -10px;
+}
+
+p.list-item {
+  margin-bottom: 1em;
+}
+
 footer .container {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #eee;
   padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 ul#menu {
@@ -108,4 +121,8 @@ ul#menu li ul li p {
 
 code {
   color: #ff724b;
+}
+
+ul.arguments li {
+  margin-bottom: 0.5em;
 }

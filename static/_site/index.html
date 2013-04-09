@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Technische Anleitung - Spiegel Online Content API Demo</title>
+    <title>Einleitung - Spiegel Online Content API Demo</title>
     <meta name="author" content="Friedrich Lindenberg" />
 
     <!-- Bootstrap -->
@@ -24,47 +24,60 @@
   <div id="airlock" class="container">
     <div class="row">
   <div class="span12">
-    <h1>Content API Prototyp <small>SPIEGEL ONLINE</small></h1>
-
-    <p>Dieser Service liefert maschinenlesbare Fassungen der Artikel von SPIEGEL ONLINE aus.</p>
-    <p><em>TODO:</em> Lizenz und Nutzungsbedingungen.</p>
-
-    <h3>Artikel-Interface</h3>
-    <p>Artikel können vollständig über die API abgefragt werden. Die Schnittstelle erlaubt
-    Volltextsuche und Facetierung und gibt eine JSON-Repräsentation der Artikelbeschreibung
-    zurück.</p>
-
-    <p>Beispiel: <code><a href="/v1/spon/article?limit=3&facet=authors_name&q=Kabinett">
-        /v1/spon/article?limit=3&facet=authors_name&q=Kabinett</a></code> &mdash; Drei Artikel mit dem
-    Text "Kabinett", sowie eine Liste der Autoren, die den Begriff "Kabinett" in den meisten 
-    Artikeln verwendet haben.</p>
-
-    <h4>Unterstützte Parameter</h4>
-    <ul>
-      <li><code>limit</code>: Maximale Anzahl der gelieferten Ergebnisse. Es werden höchstens 500
-      Artikel pro Anfrage geliefert.</li>
-      <li><code>offset</code>: Offset der zurückgelieferten Artikel zur Paginierung.</li>
-      <li><code>q</code>: Freitext-Anfrage, kann die <a href="http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html">Lucene Query Syntax</a> verwenden.
-      Alle Felder einer Artikel-Repräsentation werden indiziert, geschachtelte Strukturen sind durch einen Unterstrich abrufbar.</li>
-      <li><code>facet</code>: Facette abfragen. Eine Facette fasst die Anzahl der Treffer zu jedem Wert eines einzelnen Felds zusammen. <code>facet-limit</code> beschränkt die Anzahl der 
-      abgerufenen Werte.</li>
-      <li><code>sort</code>: Sortierung, sinnvoll sind entweder <code>score desc</code> (Relevanz zur Suchanfrage) oder <code>launchdate desc</code> (Veröffentlichungstermin, Standardeinstellung).</li>
-      <li><code>filter</code>: Anfragefilter, Syntax entspricht der von <code>q</code>. Filter können verwendet werden, um <code>q</code> einfach zu halten.</li>
-    </ul>
-
-    <h4>Einzelne Artikel</h4>
-    <p>Einzelne Artikel können über ihre ID direkt abgerufen werden: <code><a href="/v1/spon/article/888628">/v1/spon/article/888628</a></code>. Die Representation als Einzelergebnis ist 
-    umfangreicher als die Listenansicht und umfasst z.B. Autoren und Themenzuordnungen.</p>
+    <h1 class="page-header">Warum SPIEGEL ONLINE eine Content-API braucht.</h1>
   </div>
-</div>
+  <div class="span7">
+    <p><strong>SPIEGEL ONLINE</strong> sollte seine Inhalte möglichst bald über eine Programmierschnittstelle
+    (Content API) hausintern und öffentlich zugänglich machen. Warum?</p>
+    <ul class="arguments">
+      <li>Eine API <strong>vereinfacht die Zusammenarbeit zwischen EDV, Grafik und Dokumentation.</strong>
+      Die Grafik könnte so zum Beispiel neue Inhaltsformate auf die Seite bringen, ohne dass
+      die EDV den CE anpassen muss. Ein Beispiel: Der
+      <a href="http://www.spiegel.de/thema/muenchhausen_check/">Münchhausen-Check</a> könnte durch eine
+      besondere Verknüpfung der Artikel hervorgehoben werden – ohne Änderungen am CE und ohne
+      manuelle Pflege. Auch die Blog-Funktion könnte durch eine Content-API um weitere Funktionen 
+      wie etwa einen Themen-Filter angereichert werden.</li>
+      <li>Eine öffentliche Schnittstelle <strong>lädt zum Experimentieren ein</strong>, was zu
+      neuen Kooperationen oder Lizenzierungen führen kann. Wir können uns aber auch einfach
+      durch das inspirieren lassen, was andere an Potenzial in unseren Inhalten sehen – und sie
+      damit selbst besser nutzen.</li>
+      <li>Eine öffentliche API wird zunehmend zum <strong>Standard bei modernen Nachrichtenseiten</strong> im
+      Netz. Die <a href="http://open.blogs.nytimes.com/">New York Times</a> und <a href="http://www.guardian.co.uk/open-platform">der Guardian</a> bieten seit Jahren eine an, in Deutschland ist
+      seit kurzem <a href="http://developer.zeit.de/index/">Zeit Online</a> der Vorreiter.</li>
+      <li><strong>SPON kann sich dennoch als Pionier etablieren</strong>, indem wir die einzigartigen Metadaten
+      nutzen, die wir durch die DIGAS-Dossiers haben. Mit dem, was wir da an Bezügen und
+      Hierarchien zwischen Namen, Unternehmen und Körperschaften aufgebaut haben, können wir
+      zur Referenzquelle für Strukturdaten zu öffentlichen Belangen werden.</li>
+    </ul>
+    <p>Da SPON und DIGAS bereits Schnittstellen für bestehende Partner anbieten, müssten wir
+    das Rad für eine öffentliche API nicht neu erfinden: Der Programmieraufwand hielte sich
+    in Grenzen. Einen einfachen Prototypen auf der Basis der intern genutzen Artikel-API
+    habe ich für eigene Experimente implementiert. Wir müssten natürlich klarstellen, wie
+    und in welchem Umfang die bereitgestellten Artikeltexte und Metadaten genutzt werden
+    dürfen. Und wir müssten das neue Angebot bewerben. Im Vergleich zum möglichen Nutzen
+    ist der Aufwand aber gering.</p>
+  </div>
+  <div class="span5 tpc">
+    <h4>Beispiele von anderen Medien</h4>
+    <p class="list-item"><a href="/examples.html"><img src="/img/examples.png" class="boxed"></a></p>
+    <h4>Demo: Rohspiegel, eine Archiv-Suche</h4>
+    <p class="list-item"><a href="/search.html"><img src="/img/search.png" class="boxed"></a></p>
+  </div>
+
+
+
+</div> 
+
+
 
   </div>
 
   <footer>
     <div class="container">
       <div class="row">
-        <div class="span5">
-          <p>Code: <a href="https://github.com/pudo/spon-api">pudo/spon-api</a></p>
+        <div class="span7">
+          <p>Code: <a href="https://github.com/pudo/spon-api">pudo/spon-api</a>
+          &middot; <a href="/api.html">Dokumentation</a></p>
         </div>
         <div class="span5">
           <div class=" pull-right">

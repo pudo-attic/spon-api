@@ -1,0 +1,40 @@
+---
+layout: default
+title: Technische Anleitung
+---
+
+<div class="row">
+  <div class="span12">
+    <h1 class="page-header">Content API Prototyp</h1>
+
+    <p>Dieser Service liefert maschinenlesbare Fassungen der Artikel von SPIEGEL ONLINE aus.</p>
+    <p><em>TODO:</em> Lizenz und Nutzungsbedingungen.</p>
+
+    <h3>Artikel-Interface</h3>
+    <p>Artikel können vollständig über die API abgefragt werden. Die Schnittstelle erlaubt
+    Volltextsuche und Facetierung und gibt eine JSON-Repräsentation der Artikelbeschreibung
+    zurück.</p>
+
+    <p>Beispiel: <code><a href="/v1/spon/article?limit=3&facet=authors_name&q=Kabinett">
+        /v1/spon/article?limit=3&facet=authors_name&q=Kabinett</a></code> &mdash; Drei Artikel mit dem
+    Text "Kabinett", sowie eine Liste der Autoren, die den Begriff "Kabinett" in den meisten 
+    Artikeln verwendet haben.</p>
+
+    <h4>Unterstützte Parameter</h4>
+    <ul>
+      <li><code>limit</code>: Maximale Anzahl der gelieferten Ergebnisse. Es werden höchstens 500
+      Artikel pro Anfrage geliefert.</li>
+      <li><code>offset</code>: Offset der zurückgelieferten Artikel zur Paginierung.</li>
+      <li><code>q</code>: Freitext-Anfrage, kann die <a href="http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html">Lucene Query Syntax</a> verwenden.
+      Alle Felder einer Artikel-Repräsentation werden indiziert, geschachtelte Strukturen sind durch einen Unterstrich abrufbar.</li>
+      <li><code>facet</code>: Facette abfragen. Eine Facette fasst die Anzahl der Treffer zu jedem Wert eines einzelnen Felds zusammen. <code>facet-limit</code> beschränkt die Anzahl der 
+      abgerufenen Werte.</li>
+      <li><code>sort</code>: Sortierung, sinnvoll sind entweder <code>score desc</code> (Relevanz zur Suchanfrage) oder <code>launchdate desc</code> (Veröffentlichungstermin, Standardeinstellung).</li>
+      <li><code>filter</code>: Anfragefilter, Syntax entspricht der von <code>q</code>. Filter können verwendet werden, um <code>q</code> einfach zu halten.</li>
+    </ul>
+
+    <h4>Einzelne Artikel</h4>
+    <p>Einzelne Artikel können über ihre ID direkt abgerufen werden: <code><a href="/v1/spon/article/888628">/v1/spon/article/888628</a></code>. Die Representation als Einzelergebnis ist 
+    umfangreicher als die Listenansicht und umfasst z.B. Autoren und Themenzuordnungen.</p>
+  </div>
+</div>
