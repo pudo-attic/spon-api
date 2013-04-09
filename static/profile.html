@@ -9,12 +9,18 @@ layout: default
   </div>
 </div>
 
+<div class="row" id="canvas">
+</div>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 <script src="js/tabletop.js"></script>
 <script type="text/javascript">
   $(function() {
     var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
+    var $canvas = $('#canvas');
+    var listingTemplate = _.template($('#author-listing').html());
+    var profileTemplate = _.template($('#author-profile').html());
 
     function init() {
       Tabletop.init( { key: public_spreadsheet_url,
@@ -22,9 +28,26 @@ layout: default
                        simpleSheet: true } )
     }
 
-    function showInfo(data, tabletop) {
-      alert("Successfully processed" + data.length + " rows!");
+    function showListing(data) {
       console.log(data);
+      $canvas.empty();
+      $canvas.html(listingTemplate({'authors': data}));
+    }
+
+    function showProfile(data, id) {
+
+    }
+
+    function showInfo(data, tabletop) {
+      $(window).bind("hashchange",function(event) {
+        var fragment = window.location.hash.substring(1);
+        if (fragment.length) {
+          showProfile(data, fragment);
+        } else {
+          showListing(data);
+        }
+      });
+      $(window).trigger('hashchange');
     }
 
     init();
@@ -32,4 +55,17 @@ layout: default
   });
 </script>
 
+<script id='author-listing' type='text/underscore-template'>
+  <% _.each(authors, function(author){ %>
+    <div class="span3">
+      <a href='#<%- author.abbr %>'><img src="<%- author.imageurl %>"></a>
+      <h4><a href='#<%- author.abbr %>'><%- author.plainname %></a> <small><%- author.abbr %></small></h4>
+    </div>
+  <% }); %>
+</script>
 
+<script id='author-profile' type='text/underscore-template'>
+  <div class="span4">
+    <h3><%- plain_name %></h3>
+  </div>
+</script>
