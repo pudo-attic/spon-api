@@ -15,6 +15,10 @@ a, a:visited, a:hover {
   color: #900;
 }
 
+a .headline {
+  color: #000;
+}
+
 iframe {
   overflow: hidden;
 }

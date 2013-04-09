@@ -1,103 +1,78 @@
+---
+layout: default
+title: Rohspiegel
+---
 
+<style>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  h1 .subtitle {
+    color: #999;
+  }
 
-<html lang="de">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Rohspiegel</title>
+  #search-bar {
+    margin: 1em 0 1em 0;
+    width: 99%;
+    font-size: 1em;
+    padding: 0.2em;
+  }
 
-    <link rel="stylesheet" type="text/css" href="https://magazin.spiegel.de/epaper/files-1_6_16_2/css/SP/epaper_fonts.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/spon_basic.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/tabNavi.css" />
-    <link rel="stylesheet" type="text/css" href="css/project.css" />
+  #results {
+    position: relative;
+  }
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+  #results-area {
+    max-width: 600px;
+  }
 
-    <style>
-      .container {
-        width: 856px;
-        margin: 0.5em auto;
-      }
+  #results-area h3 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
 
-      h1 {
-        font-size: 2.2em;
-        line-height: 1.1em;
-        font-weight: normal;
-        color: #111;
-        font-family: 'SpiegelHeadlineWeb', Verdana, sans-serif;
-      }
+  #results-area h3.headline {
+    color: #000;
+  }
 
-      h1 .subtitle {
-        color: #999;
-      }
+  #results-area p {
+    margin-top: 0.2em;
+    font-size: 1em;
+  }
 
-      #search-bar {
-        margin: 1em 0 1em 0;
-        width: 99%;
-        font-size: 1em;
-        padding: 0.2em;
-      }
+  #results-area p .date {
+    font-weight: bold;
+    color: #666;
+  }
 
-      #results {
-        position: relative;
-      }
+  #facets-area {
+    position: absolute;
+    left: 620px;
+    width: 300px;
+  }
 
-      #results-area {
-        max-width: 600px;
-      }
+  #facets-area h2 {
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+  }
 
-      #results-area h3 {
-        margin-bottom: 0;
-        font-size: 1.0em;
-      }
+  #facets-area .count {
+    color: #999;
+  }
 
-      #results-area h3.headline {
-        color: #000;
-      }
+  #facets-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
-      #results-area p {
-        margin-top: 0.2em;
-        font-size: 0.9em;
-      }
+  #facets-area ul li {
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+  }
+</style>
 
-      #results-area p .date {
-        font-weight: bold;
-        color: #666;
-      }
-
-      #facets-area {
-        position: absolute;
-        left: 620px;
-        width: 300px;
-      }
-
-      #facets-area h2 {
-        margin-top: 0;
-        margin-bottom: 0.1em;
-        font-size: 1.2em;
-      }
-
-      #facets-area .count {
-        color: #999;
-      }
-
-      #facets-area ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      #facets-area ul li {
-        font-size: 0.9em;
-        margin-bottom: 0.2em;
-      }
-    </style>
-</head>
-
-<body>
-  <div class="container">
+<div class="row">
+  <div class="span12">
     <h1>Rohspiegel <span class='subtitle'>Content-API Demo</span></h1>
 
     <input id='search-bar' type='text' value="papst">
@@ -135,6 +110,8 @@
     </ul>
   </script>
 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
   <script type="text/javascript">
     $(function() {
       var articleTemplate = _.template($('#article-template').html());
@@ -202,9 +179,8 @@
       $('#search-bar').trigger('keyup');
     });
   </script>
-</body>
+</div>
+</div>
 
-
-</html>
 
 

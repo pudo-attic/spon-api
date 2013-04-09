@@ -1,103 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <title>Rohspiegel - Spiegel Online Content API Demo</title>
+    <meta name="author" content="Friedrich Lindenberg" />
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html lang="de">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Rohspiegel</title>
-
+    <!-- Bootstrap -->
+    <link href="http://assets.okfn.org/p/labs/201210/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://magazin.spiegel.de/epaper/files-1_6_16_2/css/SP/epaper_fonts.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/spon_basic.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/tabNavi.css" />
-    <link rel="stylesheet" type="text/css" href="css/project.css" />
+    <link href="/css/style.css" rel='stylesheet' type='text/css'>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <!--- Data Tables -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://assets.okfn.org/p/labs/201210/js/bootstrap.js"></script>
 
+    <!-- Beautification -->
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+  <body class="body-data">
+
+  <div id="airlock" class="container">
     <style>
-      .container {
-        width: 856px;
-        margin: 0.5em auto;
-      }
 
-      h1 {
-        font-size: 2.2em;
-        line-height: 1.1em;
-        font-weight: normal;
-        color: #111;
-        font-family: 'SpiegelHeadlineWeb', Verdana, sans-serif;
-      }
+  h1 .subtitle {
+    color: #999;
+  }
 
-      h1 .subtitle {
-        color: #999;
-      }
+  #search-bar {
+    margin: 1em 0 1em 0;
+    width: 99%;
+    font-size: 1em;
+    padding: 0.2em;
+  }
 
-      #search-bar {
-        margin: 1em 0 1em 0;
-        width: 99%;
-        font-size: 1em;
-        padding: 0.2em;
-      }
+  #results {
+    position: relative;
+  }
 
-      #results {
-        position: relative;
-      }
+  #results-area {
+    max-width: 600px;
+  }
 
-      #results-area {
-        max-width: 600px;
-      }
+  #results-area h3 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
 
-      #results-area h3 {
-        margin-bottom: 0;
-        font-size: 1.0em;
-      }
+  #results-area h3.headline {
+    color: #000;
+  }
 
-      #results-area h3.headline {
-        color: #000;
-      }
+  #results-area p {
+    margin-top: 0.2em;
+    font-size: 1em;
+  }
 
-      #results-area p {
-        margin-top: 0.2em;
-        font-size: 0.9em;
-      }
+  #results-area p .date {
+    font-weight: bold;
+    color: #666;
+  }
 
-      #results-area p .date {
-        font-weight: bold;
-        color: #666;
-      }
+  #facets-area {
+    position: absolute;
+    left: 620px;
+    width: 300px;
+  }
 
-      #facets-area {
-        position: absolute;
-        left: 620px;
-        width: 300px;
-      }
+  #facets-area h2 {
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+  }
 
-      #facets-area h2 {
-        margin-top: 0;
-        margin-bottom: 0.1em;
-        font-size: 1.2em;
-      }
+  #facets-area .count {
+    color: #999;
+  }
 
-      #facets-area .count {
-        color: #999;
-      }
+  #facets-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
-      #facets-area ul {
-        list-style-type: none;
-        padding: 0;
-      }
+  #facets-area ul li {
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+  }
+</style>
 
-      #facets-area ul li {
-        font-size: 0.9em;
-        margin-bottom: 0.2em;
-      }
-    </style>
-</head>
-
-<body>
-  <div class="container">
+<div class="row">
+  <div class="span12">
     <h1>Rohspiegel <span class='subtitle'>Content-API Demo</span></h1>
 
     <input id='search-bar' type='text' value="papst">
@@ -135,6 +129,8 @@
     </ul>
   </script>
 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
   <script type="text/javascript">
     $(function() {
       var articleTemplate = _.template($('#article-template').html());
@@ -202,9 +198,29 @@
       $('#search-bar').trigger('keyup');
     });
   </script>
-</body>
+</div>
+</div>
 
 
+
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span5">
+          <p>Code: <a href="https://github.com/pudo/spon-api">pudo/spon-api</a></p>
+        </div>
+        <div class="span5">
+          <div class=" pull-right">
+            <a href="http://mozillaopennews.org"><img src="/img/onlogo.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
 </html>
-
 
