@@ -1,0 +1,85 @@
+body {
+  font-size: 1em;
+}
+
+body, p {
+  font-family: 'SpiegelSansWeb', Verdana, sans-serif;
+}
+
+.container {
+  width: 856px;
+  margin: 0.5em auto;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1em;
+  font-weight: normal;
+  color: #111;
+  font-family: 'SpiegelHeadlineWeb', Verdana, sans-serif;
+}
+
+ul#menu {
+  list-style-type: none;
+  margin: 0.5em 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+  border-top: 1px solid #666;
+}
+
+ul#menu li {
+  padding: 0.5em 0 0.3em 0;
+  display: inline-block;
+  width: 10em;
+  position: relative;
+}
+
+ul#menu li .category {
+  font-weight: bold;
+  padding: 0 0 0 1em;
+  cursor: pointer;
+}
+
+ul#menu li ul {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  width: 28em;
+  /*background-color: #eee;*/
+  background-color: #fff;
+  border: 1px solid #666;
+  border-top: none;
+}
+
+ul#menu > li:hover {
+  /*background-color: #eee;*/
+  background-color: #fff;
+  cursor: hand;
+  margin-left: -1px;
+  margin-right: -1px;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+ul#menu li:hover ul {
+  margin-top: 0.3em;
+  margin-left: -1px;
+}
+
+ul#menu li ul li {
+  width: inherit;
+}
+
+ul#menu li ul li p {
+  margin: 0 0 1em 0;
+  color: #999;
+  font-size: 0.9em;
+}
+
+
