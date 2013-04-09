@@ -1,50 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <title>Autorenprofil-Demo - Spiegel Online Content API Demo</title>
+    <meta name="author" content="Friedrich Lindenberg" />
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html lang="de">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Rohspiegel</title>
-
+    <!-- Bootstrap -->
+    <link href="http://assets.okfn.org/p/labs/201210/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://magazin.spiegel.de/epaper/files-1_6_16_2/css/SP/epaper_fonts.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/spon_basic.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/tabNavi.css" />
-    <link rel="stylesheet" type="text/css" href="css/project.css" />
+    <link href="/css/style.css" rel='stylesheet' type='text/css'>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-    <script src="js/tabletop.js"></script>
-</head>
+    <!--- Data Tables -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://assets.okfn.org/p/labs/201210/js/bootstrap.js"></script>
 
-<body>
+    <!-- Beautification -->
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+  <body class="body-data">
 
-asdf
-  <script type="text/javascript">
-    $(function() {
-      
-      var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
+  <div id="airlock" class="container">
+    <div class="row">
+  <div class="span12">
+    <h1 class="page-header">Sponti-Profile</h1>
+  </div>
+</div>
 
-      function init() {
-        Tabletop.init( { key: public_spreadsheet_url,
-                         callback: showInfo,
-                         simpleSheet: true } )
-      }
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+<script src="js/tabletop.js"></script>
+<script type="text/javascript">
+  $(function() {
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
 
-      function showInfo(data, tabletop) {
-        alert("Successfully processed" + data.length + " rows!");
-        console.log(data);
-      }
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
 
-      init();
+    function showInfo(data, tabletop) {
+      alert("Successfully processed" + data.length + " rows!");
+      console.log(data);
+    }
 
-    });
-  </script>
+    init();
 
-</body>
+  });
+</script>
 
 
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span7">
+          <p>
+          
+          <a href="/">&laquo; Startseite</a>
+          &middot; 
+          
+          <a href="https://github.com/pudo/spon-api">pudo/spon-api</a>
+          &middot; <a href="/api.html">Dokumentation</a></p>
+        </div>
+        <div class="span5">
+          <div class=" pull-right">
+            <a href="http://mozillaopennews.org"><img src="/img/onlogo.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
 </html>
-
 

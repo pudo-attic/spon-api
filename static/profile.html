@@ -1,50 +1,35 @@
+---
+title: Autorenprofil-Demo
+layout: default
+---
 
+<div class="row">
+  <div class="span12">
+    <h1 class="page-header">Sponti-Profile</h1>
+  </div>
+</div>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+<script src="js/tabletop.js"></script>
+<script type="text/javascript">
+  $(function() {
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
 
-<html lang="de">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Rohspiegel</title>
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
 
-    <link rel="stylesheet" type="text/css" href="https://magazin.spiegel.de/epaper/files-1_6_16_2/css/SP/epaper_fonts.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/spon_basic.css" />
-    <link rel="stylesheet" type="text/css" href="http://spiegel.de/static/happ/_common/css/tabNavi.css" />
-    <link rel="stylesheet" type="text/css" href="css/project.css" />
+    function showInfo(data, tabletop) {
+      alert("Successfully processed" + data.length + " rows!");
+      console.log(data);
+    }
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
-    <script src="js/tabletop.js"></script>
-</head>
+    init();
 
-<body>
-
-asdf
-  <script type="text/javascript">
-    $(function() {
-      
-      var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/ccc?key=0AplklDf0nYxWdDdqRVFxWV9YcFp5VXJ3VmV5TW9kNWc&usp=sharing';
-
-      function init() {
-        Tabletop.init( { key: public_spreadsheet_url,
-                         callback: showInfo,
-                         simpleSheet: true } )
-      }
-
-      function showInfo(data, tabletop) {
-        alert("Successfully processed" + data.length + " rows!");
-        console.log(data);
-      }
-
-      init();
-
-    });
-  </script>
-
-</body>
-
-
-</html>
+  });
+</script>
 
 
