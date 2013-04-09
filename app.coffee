@@ -8,7 +8,7 @@ app = express()
 app.use express.logger()
 app.use express.compress()
 app.use express.errorHandler()
-app.use express.static __dirname + '/static'
+app.use express.static __dirname + '/static/_site'
 app.disable "x-powered-by"
 
 app.get '/status', (req, res) ->
