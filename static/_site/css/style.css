@@ -50,6 +50,10 @@ h3 {
   margin-top: -10px;
 }
 
+.nopre h3 {
+  margin-top: 0;
+}
+
 p.list-item {
   margin-bottom: 1em;
 }
