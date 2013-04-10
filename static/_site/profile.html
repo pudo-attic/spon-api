@@ -40,7 +40,7 @@
 
 <div class="row">
   <div class="span12">
-    <h1 class="page-header">Sponti-Profile</h1>
+    <h1 class="page-header">Spontis <span class='subtitle'>Content-API Demo</span></h1>
   </div>
 </div>
 
@@ -56,6 +56,7 @@
     var $canvas = $('#canvas');
     var listingTemplate = _.template($('#author-listing').html());
     var profileTemplate = _.template($('#author-profile').html());
+    var topicFilter = null, profile = null;
 
     function init() {
       Tabletop.init( { key: public_spreadsheet_url,
@@ -68,13 +69,27 @@
       $canvas.html(listingTemplate({'authors': data}));
     }
 
+    function handleTopicFilter(e) {
+      if ($(e.target).hasClass('remove-filter')) {
+        topicFilter = null;
+      } else {
+        topicFilter = $(e.target).data('topic');
+      }
+      reloadProfile();
+      return false;
+    }
+
     function showProfile(data, id) {
-      var profile = _.find(data, function(r) { return r.abbr == id; });
+      profile = _.find(data, function(r) { return r.abbr == id; });
+      reloadProfile();
+    }
+
+    function reloadProfile() {
       $canvas.empty();
+      var filter = ['+authors_name:"' + profile.indexname + '"']
+      if (topicFilter) filter.push('+topics_name:"' + topicFilter + '"');
       $.ajax({
-        data: {facet: ['topics_name'], 'facet-limit': 30,
-               filter: '+authors_name:"' + profile.indexname + '"'
-              },
+        data: {facet: ['topics_name'], 'facet-limit': 30, filter: filter},
         dataType: 'jsonp',
         url: 'http://spon-api.pudo.org/v1/spon/article',
         success: function(data) { renderProfile(profile, data); }
@@ -83,10 +98,12 @@
 
     function renderProfile(profile, data) {
       profile.count = data.count;
+      profile.topicFilter = topicFilter;
       profile.articles = data.results;
       profile.topics = _.pairs(data.facets.topics_name);
       console.log(profile);
       $canvas.html(profileTemplate(profile));
+      $('.topics-list a').click(handleTopicFilter);
     }
 
     function showInfo(data, tabletop) {
@@ -129,9 +146,15 @@
   </div>
   <div class="row">
     <div class="span3">
+
       <ul class="topics-list">
+      <% if (topicFilter) { %>
+        <li><strong>Filter: '<%- topicFilter %>' <a href='#' class='remove-filter'>entfernen</a></strong></li>
+      <% } %>
       <% _.each(topics, function(topic){ %>
-        <li><a href='#'><%- topic[0] %></a> <small><%- topic[1] %></small></li>
+        <% if (topicFilter!=topic[0]) { %>
+          <li><a href='#' data-topic='<%- topic[0] %>'><%- topic[0] %></a> <small><%- topic[1] %></small></li>
+        <% } %>
       <% }); %>
       </ul>
     </div>

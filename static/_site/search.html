@@ -25,13 +25,16 @@
     <div class="row">
   <div class="span12">
     <h1 class="page-header">Rohspiegel <span class='subtitle'>Content-API Demo</span></h1>
-
-    <input id='search-bar' type='text' value="papst">
-    <div id='results'>
-      <div id='facets-area'></div>
-      <div id='results-area'></div>
-    </div>
+    <input id='search-bar' class='span12' type='text' value="papst">
+  </div> 
+  
+  <div class="span8">
+    <div id='results-area'></div>
   </div>
+  <div class="span4">
+    <div id='facets-area'></div>
+  </div>
+</div>
 
   <script id='article-template' type='x-underscore-template'>
     <% _.each( results, function(article){ %>
